@@ -1,0 +1,46 @@
+li {
+    list-style-type: "-";
+}
+
+.site-title {
+    color: #E5989B;
+    font-weight: 700;
+    font-size: 2.15em;
+}
+
+.bg-primary {
+    background-color: #E5989B;
+}
+
+.badge-primary {
+    --badge-color: #E5989B;
+
+}
+
+.hover\:bg-primary {
+    &:hover {
+        @media (hover: hover) {
+            background-color: #E5989B;
+        }
+    }
+}
+
+.hover\:badge-primary {
+    &:hover {
+        @media (hover: hover) {
+            --badge-color: #E5989B;
+        }
+    }
+}
+
+.btn {
+    @media (hover: hover) {
+        &:hover {
+          --btn-bg: #E5989B;
+        }
+      }
+}
+
+.prose {
+    max-width: 96ch;
+}

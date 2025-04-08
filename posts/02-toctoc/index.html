@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="fr-fr"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toctoc, le panda foufou | Les histoires de « Dans ma tête »</title>
+
+    
+  
+    <link href="/img/personal/favicon.png" rel="icon" type="image/x-icon" />
+  
+
+
+<link rel="canonical" href="https://histoires2dansmatete.github.io/posts/02-toctoc/" />
+
+
+
+<meta name="author" content="Griotte Lapone" />
+<meta name="description" content="Toctoc, le panda foufou n’aime pas les bambous, ils ont toujours le même goût. Il n’aime pas non plus être noir et blanc, il trouve que ça le vieillit. Il n’apprécie pas plus de rester dans sa forêt isolée dans les montagnes car il déteste la solitude et ça le rend grognon.
+Toctoc, le panda foufou rêve de manger des hamburgers et des pizzas. Il rêve d’être multicolore comme les arcs-en-ciel qu’il trouve extraordinaires. Il rêve de vivre en ville où il pourrait avoir des tas d’amis. Oui, mais voilà, il a beau avoir envie de parcourir le monde pour en voir toutes les couleurs et en goûter toutes les saveurs, il sait que le chemin risque d’être fastidieux pour arriver à destination et ça le décourage beaucoup. Lorsqu’il pense à ce long voyage, on entend souvent son écho hurler « FLEMME ! » dans toute la montagne. Il faut dire que Toctoc, le panda foufou vit plus à travers ses rêves que dans la réalité.
+" />
+
+
+<meta name="keywords" content="Amitié,Aventure,Ténacité">
+
+
+
+<meta name="generator" content="Hugo 0.145.0">
+
+
+<meta property="og:url" content="https://histoires2dansmatete.github.io/posts/02-toctoc/">
+  <meta property="og:site_name" content="Les histoires de « Dans ma tête »">
+  <meta property="og:title" content="Toctoc, le panda foufou">
+  <meta property="og:description" content="Toctoc, le panda foufou n’aime pas les bambous, ils ont toujours le même goût. Il n’aime pas non plus être noir et blanc, il trouve que ça le vieillit. Il n’apprécie pas plus de rester dans sa forêt isolée dans les montagnes car il déteste la solitude et ça le rend grognon.
+Toctoc, le panda foufou rêve de manger des hamburgers et des pizzas. Il rêve d’être multicolore comme les arcs-en-ciel qu’il trouve extraordinaires. Il rêve de vivre en ville où il pourrait avoir des tas d’amis. Oui, mais voilà, il a beau avoir envie de parcourir le monde pour en voir toutes les couleurs et en goûter toutes les saveurs, il sait que le chemin risque d’être fastidieux pour arriver à destination et ça le décourage beaucoup. Lorsqu’il pense à ce long voyage, on entend souvent son écho hurler « FLEMME ! » dans toute la montagne. Il faut dire que Toctoc, le panda foufou vit plus à travers ses rêves que dans la réalité.">
+  <meta property="og:locale" content="fr_fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-04-08T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-04-08T14:13:54+02:00">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Toctoc, le panda foufou">
+  <meta name="twitter:description" content="Toctoc, le panda foufou n’aime pas les bambous, ils ont toujours le même goût. Il n’aime pas non plus être noir et blanc, il trouve que ça le vieillit. Il n’apprécie pas plus de rester dans sa forêt isolée dans les montagnes car il déteste la solitude et ça le rend grognon.
+Toctoc, le panda foufou rêve de manger des hamburgers et des pizzas. Il rêve d’être multicolore comme les arcs-en-ciel qu’il trouve extraordinaires. Il rêve de vivre en ville où il pourrait avoir des tas d’amis. Oui, mais voilà, il a beau avoir envie de parcourir le monde pour en voir toutes les couleurs et en goûter toutes les saveurs, il sait que le chemin risque d’être fastidieux pour arriver à destination et ça le décourage beaucoup. Lorsqu’il pense à ce long voyage, on entend souvent son écho hurler « FLEMME ! » dans toute la montagne. Il faut dire que Toctoc, le panda foufou vit plus à travers ses rêves que dans la réalité.">
+
+
+
+
+  
+
+<link rel="stylesheet" href="/css/output.min.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+    <link rel="stylesheet" href="/css/custom.css" />
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js" integrity="sha256-PtHu0lJIiSHfZeNj1nFd6wTX+Squ255SGZ/fc8seCtM=" crossorigin="anonymous"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav class="mt-4 lg:mt-8 py-4">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:avatar-online">
+        <div class="h-10 rounded-full">
+          <img src="/img/personal/avatar.png" alt="Les histoires de « Dans ma tête »" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="https://histoires2dansmatete.github.io/" class="text-lg font-semibold cursor-pointer site-title">
+          Les histoires de « Dans ma tête »
+        </a>
+        
+      </div>
+      
+    </section>
+
+    
+    
+      
+    
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-1 shadow-md">
+        
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="group inline-flex items-center p-2 cursor-pointer" href="/search" title="Rechercher une histoire">
+    <ion-icon name="search"></ion-icon>
+    Rechercher une histoire
+  </a>
+</li>
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="https://www.instagram.com/les_histoires_2_dans_ma_tete/" target="_blank" title="Instagram">
+    
+    <ion-icon name="logo-instagram"></ion-icon>
+    
+    Instagram
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="Toutes les catégories">
+    <ion-icon name="grid"></ion-icon>
+    Toutes les catégories
+  </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+
+      
+      
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/search" title="Rechercher une histoire">
+  <ion-icon class="group-hover:text-primary-content" name="search"></ion-icon>
+</a>
+
+
+      
+      
+
+
+
+  
+  <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="https://www.instagram.com/les_histoires_2_dans_ma_tete/" target="_blank" title="Instagram">
+    <ion-icon class="group-hover:text-primary-content" name="logo-instagram"></ion-icon>
+  </a>
+  
+
+
+
+      
+
+      <div class="dropdown dropdown-end dropdown-hover">
+        <div tabindex="0" role="button" class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" aria-label="Select an option">
+          <ion-icon class="group-hover:text-primary-content text-xl" name="menu"></ion-icon>
+        </div>
+        <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-1 shadow-xl">
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
+
+
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="Toutes les catégories">
+    <ion-icon name="grid"></ion-icon>
+    Toutes les catégories
+  </a>
+</li>
+
+
+          
+          
+
+
+
+
+
+          
+          
+
+
+
+
+
+          
+
+          
+          
+
+
+
+
+
+
+
+
+
+
+          
+        </ul>
+      </div>
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    
+  </div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="Toctoc, le panda foufou">
+  <meta itemprop="description" content="Toctoc, le panda foufou n’aime pas les bambous, ils ont toujours le même goût. Il n’aime pas non plus être noir et blanc, il trouve que ça le vieillit. Il n’apprécie pas plus de rester dans sa forêt isolée dans les montagnes car il déteste la solitude et ça le rend grognon.
+Toctoc, le panda foufou rêve de manger des hamburgers et des pizzas. Il rêve d’être multicolore comme les arcs-en-ciel qu’il trouve extraordinaires. Il rêve de vivre en ville où il pourrait avoir des tas d’amis. Oui, mais voilà, il a beau avoir envie de parcourir le monde pour en voir toutes les couleurs et en goûter toutes les saveurs, il sait que le chemin risque d’être fastidieux pour arriver à destination et ça le décourage beaucoup. Lorsqu’il pense à ce long voyage, on entend souvent son écho hurler « FLEMME ! » dans toute la montagne. Il faut dire que Toctoc, le panda foufou vit plus à travers ses rêves que dans la réalité.">
+  <meta itemprop="datePublished" content="2025-04-08T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-04-08T14:13:54+02:00">
+  <meta itemprop="wordCount" content="1100">
+  <meta itemprop="keywords" content="Amitié,Aventure,Ténacité">
+
+      <header>
+        <h1 itemprop="headline">Toctoc, le panda foufou</h1>
+        <p class="text-sm">
+          
+            <span data-format="luxon">2025-04-08T00:00:00Z</span>
+          
+
+          | <span>6 minutes de lecture</span>
+
+          
+          | <span>Mise à jour le
+            
+              <span data-format="luxon">2025-04-08T14:13:54&#43;02:00</span>
+            </span>
+          
+        </p>
+
+        
+        <div class="flex justify-between">
+          
+            <div class="flex items-center">
+  
+  <div class="avatar mr-1">
+    <div class="w-8 rounded-full">
+      <img class="my-0!" src="/img/personal/avatar.png" alt="Griotte Lapone" />
+    </div>
+  </div>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">Griotte Lapone</span>
+    
+  
+  </span>
+</div>
+
+          
+
+          <div class="flex items-center gap-2">
+
+</div>
+
+        </div>
+      </header>
+
+      <section id="dream-single-post-content" itemprop="articleBody">
+        
+
+        <p>Toctoc, le panda foufou n’aime pas les bambous, ils ont toujours le même goût. Il n’aime pas non plus être noir et blanc, il trouve que ça le vieillit. Il n’apprécie pas plus de rester dans sa forêt isolée dans les montagnes car il déteste la solitude et ça le rend grognon.<br>
+Toctoc, le panda foufou rêve de manger des hamburgers et des pizzas. Il rêve d’être multicolore comme les arcs-en-ciel qu’il trouve extraordinaires. Il rêve de vivre en ville où il pourrait avoir des tas d’amis.
+Oui, mais voilà, il a beau avoir envie de parcourir le monde pour en voir toutes les couleurs et en goûter toutes les saveurs, il sait que le chemin risque d’être fastidieux pour arriver à destination et ça le décourage beaucoup. Lorsqu’il pense à ce long voyage, on entend souvent son écho hurler « FLEMME ! » dans toute la montagne. Il faut dire que Toctoc, le panda foufou vit plus à travers ses rêves que dans la réalité.</p>
+<p>Heureusement, le destin lui réserve une belle surprise aujourd’hui. Comme chaque matin, Toctoc, le panda foufou va prendre son bain dans le lac. Il chante à tue-tête en tapotant sur l’eau avec ses pattes pour battre la mesure et bouge son popotin, ce qui fait quelques remous. Il se sent tellement bien qu’il s’imagine être une grande star devant un public émerveillé par son talent. Tout d’un coup, il entend un bruit. Il s’arrête et se met à regarder autour de lui. Mais il ne voit rien. Il secoue la tête puis continue son concert de plus belle. Subitement, il a l’impression que quelqu’un l’applaudit. Il n’est pas très rassuré :</p>
+<ul>
+<li><em>Il y a quelqu’un ?</em> dit-il timidement.</li>
+<li><em>Magnifique, incroyable, splendide</em>, lui répond une petite voix tout près de lui.</li>
+<li><em>Vous êtes où ? Et vous êtes qui ?</em></li>
+<li><em>Pardon, je ne me suis pas présentée. Je suis Pihao et je me trouve juste à côté de ton oreille.</em></li>
+<li><em>Comment ça ?</em> s’étonne-t-il.</li>
+<li><em>Ne bouge pas, je vais te montrer à quoi je ressemble.</em></li>
+</ul>
+<p>C’est alors qu’une jolie coccinelle se pose sur le museau de Toctoc qui louche pour pouvoir l’observer :</p>
+<ul>
+<li><em>Tu peux reculer un peu ? Mes parents m’ont toujours dit que si je louche et qu’il y a du vent, je risque de rester bloqué !</em></li>
+</ul>
+<p>Pihao éclate de rire :</p>
+<ul>
+<li><em>Tu es vraiment marrant, toi ! Comment tu t’appelles ?</em></li>
+<li><em>Je suis Toctoc, le panda foufou,</em> réplique-t-il fièrement.</li>
+<li><em>Pourquoi foufou ?</em> interroge la coccinelle.</li>
+<li><em>Parce que j’aime les choses fofolles.</em></li>
+<li><em>Comme quoi par exemple ?</em></li>
+<li><em>J’aimerais être multicolore, manger des pizzas et des hamburgers et vivre en ville,</em> dit-il avec aplomb.</li>
+<li><em>Ca n’a rien de foufou,</em> s’étonne Pihao. <em>Mais d’ailleurs, pourquoi tu ne fais pas toutes ces choses ?</em></li>
+<li><em>Il faudrait que je traverse la forêt et que je descende la montagne en traversant des lacs. C’est long et ça demande du temps…flemme !</em></li>
+<li><em>Toctoc, rien dans la vie ne se fait sans effort. Si tu as des rêves, tu dois essayer même si c’est difficile,</em> dit Pihao. <em>Si tu veux, je peux faire le chemin avec toi pour t’accompagner jusqu’à la ville ?</em></li>
+</ul>
+<p>Une compagne de voyage ? Comment n’y avait-il pas pensé plus tôt ! Le panda foufou trouve enfin la motivation qu’il cherche depuis toujours pour faire sa valise. Il décide d’emporter avec lui le strict minimum : son doudou préféré mais un peu cassé, sa brosse à dents toute usée et le vieil appareil photo de son grand-père qu’il n’a jamais utilisé.<br>
+Voilà nos deux compères en route vers la grande ville, Pihao posée au creux de l’oreille de son nouvel ami. Toctoc, le panda foufou est impatient d’arriver. Après quelques heures de marche à travers la forêt, ils s’arrêtent faire une pause pour grignoter : encore et toujours des bambous pour Toctoc, le panda foufou qui salive en pensant aux futurs burgers qui l’attendent et des pucerons pour la petite coccinelle.</p>
+<ul>
+<li><em>Dis-moi, quand est-ce qu’on arrive Pihao ?</em></li>
+<li><em>On vient juste de partir, voyons ! Il nous faudra encore voyager plusieurs jours,</em> répond son amie.</li>
+<li><em>Oh, flemme ! Je suis fatigué et c’est bien trop loin,</em> dit le panda.</li>
+<li><em>Imagine tout ce que tu vas découvrir une fois en ville. Tu n’as pas envie d’aller au cinéma ? Ou d’aller au musée ? Et de te faire plein d’amis ?</em></li>
+<li><em>Si, bien sûr. Tu as raison. Continuons notre chemin .</em></li>
+</ul>
+<p>Pihao est heureuse de voir Toctoc, le panda foufou se remettre en route.</p>
+<p>Après plusieurs jours de marche, ils arrivent devant un gigantesque lac. Toctoc trop content de pouvoir enfin prendre son bain se jette à l’eau en éclaboussant tout autour de lui.</p>
+<ul>
+<li><em>Hey, attention,</em> lui dit la petite coccinelle, <em>je vais couler moi !</em></li>
+<li><em>Oh pardon, mais j’ai envie de m’amuser un peu. Crapahuter à travers les montagnes et les forêts, c’est bien. Mais j’ai mal aux pattes et je me demande si on ne peut pas s’arrêter ici finalement ? Je suis épuisé et j’ai la flemme !</em></li>
+<li><em>D’accord, réplique malicieusement Pihao. Toi, tu restes ici et moi, je vais manger une pizza en ville. Bonne chance.</em></li>
+</ul>
+<p>Pihao s’envole. Toctoc, le panda foufou hurle en courant :</p>
+<ul>
+<li><em>Attends-moi !!! Tu la veux à quoi ta pizza ?</em></li>
+</ul>
+<p>La coccinelle rusée sourit et se repose au creux de l’oreille de son ami.</p>
+<p>Ils parcourent d’autres forêts et d’autres montagnes, ça monte et ça descend. Toctoc, le panda foufou en a assez. Il s’assoit sur un rocher et dit :</p>
+<ul>
+<li><em>Tu m’avais dit que ça prendrait plusieurs jours, mais tu ne connais pas le chemin et je suis sûr que nous sommes perdus. Je ne bouge plus d’ici. Je suis flagada et j’ai la flemme !</em></li>
+<li><em>Très bien. Mais c’est dommage car toi qui voulais être un panda aux mille couleurs, tu pourrais t’inspirer des couleurs de la ville.</em></li>
+<li><em>Mais nous sommes perdus et je ne verrai jamais la ville,</em> s’agace le panda.</li>
+<li><em>Grimpe sur le rocher, tourne-toi et ouvre les yeux !</em></li>
+</ul>
+<p>Toctoc, le panda foufou se hisse en râlant. Puis soudain, il aperçoit la ville et n’en croit pas ses yeux. Il saute de joie et se met à courir de toutes ses forces.</p>
+<p>Et c’est ainsi que le panda et la petite coccinelle descendent de la montagne jusqu’à la ville :</p>
+<ul>
+<li><em>Merci Pihao de m’avoir soutenu,</em> dit Toctoc tout émerveillé de réaliser son rêve.</li>
+<li><em>Tout seul, on va plus vite, mais ensemble on va plus loin,</em> lui répond la coccinelle en s’envolant vers d’autres horizons.</li>
+<li><em>A bientôt mon amie,</em> répond Toctoc, le panda foufou en lui faisant un signe de la patte.</li>
+</ul>
+<img src="/img/02-Toctoc.jpg" alt="Toctoc">
+
+        
+      </section>
+
+      
+      <div class="divider"></div>
+      <div class="flex flex-col md:flex-row justify-between gap-4 py-4">
+        
+        <div></div>
+        
+
+        
+        <a role="button" class="btn btn-outline h-12" href="/posts/01-minipeton/" title="L’amitié, comme sur des roulettes !">
+          <div class="inline-flex flex-col items-end">
+            <span class="text-base-content/60 text-xs font-normal">Histoire suivante</span>
+            <span class="max-w-48 truncate">L’amitié, comme sur des roulettes !</span>
+          </div>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </a>
+        
+      </div>
+      
+
+      
+      <div class="divider"></div>
+
+      <section class="space-y-4">
+        
+
+
+<template x-if="['localhost', '127.0.0.1'].indexOf(window.location.hostname) == -1">
+  <article>
+    <script
+      src="https://utteranc.es/client.js"
+      repo="histoires2dansmatete/histoires2dansmatete.github.io"
+      issue-term="og:title"
+      theme="github-light"
+      crossorigin="anonymous"
+      async>
+    </script>
+  </article>
+</template>
+
+
+
+
+
+
+
+
+      </section>
+      
+    </article>
+  </div>
+
+  <div class="hidden lg:flex lg:flex-col lg:items-end">
+    
+  </div>
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 Les histoires de « Dans ma tête »
+  </p>
+  
+
+  
+  <p>Des histoires mignonnes inventées pour mes fils qui souhaitent les partager à tous les enfants.</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 Les histoires de « Dans ma tête »
+  </p>
+  
+
+  
+  <p>Des histoires mignonnes inventées pour mes fils qui souhaitent les partager à tous les enfants.</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+    
+  
+  <script src="/js/grid.min.js"></script>
+
+
+
+
+  
+
+<script src="/js/main.min.js"></script>
+
+    
+
+
+<script
+  src="https://cdn.jsdelivr.net/npm/luxon@1.26.0"
+  integrity="sha256-4sbTzmCCW9LGrIh5OsN8V5Pfdad1F1MwhLAOyXKnsE0="
+  crossorigin="anonymous"
+></script>
+<script>
+  format()
+
+  function format() {
+    document.querySelectorAll('span[data-format="luxon"]').forEach(el => {
+      const date = el.textContent
+
+      el.textContent = luxon.DateTime.fromISO(date, { locale: "fr" }).toFormat("yyyy-MM-dd")
+    })
+  }
+</script>
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.esm.js" integrity="sha256-/IFmi82bIhdYWctu0UddSlJqpnzWm7Vh2C4CM32wF/k=" crossorigin="anonymous"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.js" integrity="sha256-mr7eJMX3VC3F7G32mk4oWp1C6a2tlMYxUdptfT7uKI8=" crossorigin="anonymous"></script>
+  </body>
+</html>
