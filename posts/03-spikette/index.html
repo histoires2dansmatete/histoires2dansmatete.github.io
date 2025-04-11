@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="fr-fr"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spikette, hérisonne de Pâques | Les histoires de « Dans ma tête »</title>
+
+    
+  
+    <link href="/img/personal/favicon.png" rel="icon" type="image/x-icon" />
+  
+
+
+<link rel="canonical" href="https://histoires2dansmatete.github.io/posts/03-spikette/" />
+
+
+
+<meta name="author" content="Griotte Lapone" />
+<meta name="description" content="Spikette était une maman comblée. Elle adorait prendre soin de ses cinq choupissons trop mignons. Tous les jours, c’était la même chose : après un bon petit-déjeuner à base de limaces, elle leur faisait l’école. Et comme ses petits polissons ne tenaient pas en place, l’après-midi, elle les emmenait en balade à travers les forêts et les champs : ils faisaient connaissance avec les autres animaux qui peuplaient les sous-bois et rencontraient des tas d’amis.
+Spikette prenait son rôle de maman très à cœur et elle chérissait ses enfants. Pourtant, dès que ses hérissoneaux dormaient, son imagination la rattrapait. Elle aimait sa vie bien sûr, mais elle ne pouvait s’empêcher de rêver d’aider les oiseaux à construire leurs nids le printemps venu. Elle se voyait aussi bâtir des barrages avec les castors ou encore être guide des bois pour les animaux de passage. Elle ne manquait pas d’idées. Mais son rêve le plus fou, son plus grand secret, était d’accompagner le lapin de Pâques dans sa mission de distribution de chocolats pour faire plaisir à tous les enfants.
+" />
+
+
+<meta name="keywords" content="Rêve,Aventure,Egalité">
+
+
+
+<meta name="generator" content="Hugo 0.145.0">
+
+
+<meta property="og:url" content="https://histoires2dansmatete.github.io/posts/03-spikette/">
+  <meta property="og:site_name" content="Les histoires de « Dans ma tête »">
+  <meta property="og:title" content="Spikette, hérisonne de Pâques">
+  <meta property="og:description" content="Spikette était une maman comblée. Elle adorait prendre soin de ses cinq choupissons trop mignons. Tous les jours, c’était la même chose : après un bon petit-déjeuner à base de limaces, elle leur faisait l’école. Et comme ses petits polissons ne tenaient pas en place, l’après-midi, elle les emmenait en balade à travers les forêts et les champs : ils faisaient connaissance avec les autres animaux qui peuplaient les sous-bois et rencontraient des tas d’amis.
+Spikette prenait son rôle de maman très à cœur et elle chérissait ses enfants. Pourtant, dès que ses hérissoneaux dormaient, son imagination la rattrapait. Elle aimait sa vie bien sûr, mais elle ne pouvait s’empêcher de rêver d’aider les oiseaux à construire leurs nids le printemps venu. Elle se voyait aussi bâtir des barrages avec les castors ou encore être guide des bois pour les animaux de passage. Elle ne manquait pas d’idées. Mais son rêve le plus fou, son plus grand secret, était d’accompagner le lapin de Pâques dans sa mission de distribution de chocolats pour faire plaisir à tous les enfants.">
+  <meta property="og:locale" content="fr_fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-04-11T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-04-11T00:00:00+00:00">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Spikette, hérisonne de Pâques">
+  <meta name="twitter:description" content="Spikette était une maman comblée. Elle adorait prendre soin de ses cinq choupissons trop mignons. Tous les jours, c’était la même chose : après un bon petit-déjeuner à base de limaces, elle leur faisait l’école. Et comme ses petits polissons ne tenaient pas en place, l’après-midi, elle les emmenait en balade à travers les forêts et les champs : ils faisaient connaissance avec les autres animaux qui peuplaient les sous-bois et rencontraient des tas d’amis.
+Spikette prenait son rôle de maman très à cœur et elle chérissait ses enfants. Pourtant, dès que ses hérissoneaux dormaient, son imagination la rattrapait. Elle aimait sa vie bien sûr, mais elle ne pouvait s’empêcher de rêver d’aider les oiseaux à construire leurs nids le printemps venu. Elle se voyait aussi bâtir des barrages avec les castors ou encore être guide des bois pour les animaux de passage. Elle ne manquait pas d’idées. Mais son rêve le plus fou, son plus grand secret, était d’accompagner le lapin de Pâques dans sa mission de distribution de chocolats pour faire plaisir à tous les enfants.">
+
+
+
+
+  
+
+<link rel="stylesheet" href="/css/output.min.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+    <link rel="stylesheet" href="/css/custom.css" />
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js" integrity="sha256-PtHu0lJIiSHfZeNj1nFd6wTX+Squ255SGZ/fc8seCtM=" crossorigin="anonymous"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav class="mt-4 lg:mt-8 py-4">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:avatar-online">
+        <div class="h-10 rounded-full">
+          <img src="/img/personal/avatar.png" alt="Les histoires de « Dans ma tête »" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="https://histoires2dansmatete.github.io/" class="text-lg font-semibold cursor-pointer site-title">
+          Les histoires de « Dans ma tête »
+        </a>
+        
+      </div>
+      
+    </section>
+
+    
+    
+      
+    
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-1 shadow-md">
+        
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="group inline-flex items-center p-2 cursor-pointer" href="/search" title="Rechercher une histoire">
+    <ion-icon name="search"></ion-icon>
+    Rechercher une histoire
+  </a>
+</li>
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="https://www.instagram.com/les_histoires_2_dans_ma_tete/" target="_blank" title="Instagram">
+    
+    <ion-icon name="logo-instagram"></ion-icon>
+    
+    Instagram
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="Toutes les catégories">
+    <ion-icon name="grid"></ion-icon>
+    Toutes les catégories
+  </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+
+      
+      
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/search" title="Rechercher une histoire">
+  <ion-icon class="group-hover:text-primary-content" name="search"></ion-icon>
+</a>
+
+
+      
+      
+
+
+
+  
+  <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="https://www.instagram.com/les_histoires_2_dans_ma_tete/" target="_blank" title="Instagram">
+    <ion-icon class="group-hover:text-primary-content" name="logo-instagram"></ion-icon>
+  </a>
+  
+
+
+
+      
+
+      <div class="dropdown dropdown-end dropdown-hover">
+        <div tabindex="0" role="button" class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" aria-label="Select an option">
+          <ion-icon class="group-hover:text-primary-content text-xl" name="menu"></ion-icon>
+        </div>
+        <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-1 shadow-xl">
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
+
+
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="Toutes les catégories">
+    <ion-icon name="grid"></ion-icon>
+    Toutes les catégories
+  </a>
+</li>
+
+
+          
+          
+
+
+
+
+
+          
+          
+
+
+
+
+
+          
+
+          
+          
+
+
+
+
+
+
+
+
+
+
+          
+        </ul>
+      </div>
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    
+  </div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="Spikette, hérisonne de Pâques">
+  <meta itemprop="description" content="Spikette était une maman comblée. Elle adorait prendre soin de ses cinq choupissons trop mignons. Tous les jours, c’était la même chose : après un bon petit-déjeuner à base de limaces, elle leur faisait l’école. Et comme ses petits polissons ne tenaient pas en place, l’après-midi, elle les emmenait en balade à travers les forêts et les champs : ils faisaient connaissance avec les autres animaux qui peuplaient les sous-bois et rencontraient des tas d’amis.
+Spikette prenait son rôle de maman très à cœur et elle chérissait ses enfants. Pourtant, dès que ses hérissoneaux dormaient, son imagination la rattrapait. Elle aimait sa vie bien sûr, mais elle ne pouvait s’empêcher de rêver d’aider les oiseaux à construire leurs nids le printemps venu. Elle se voyait aussi bâtir des barrages avec les castors ou encore être guide des bois pour les animaux de passage. Elle ne manquait pas d’idées. Mais son rêve le plus fou, son plus grand secret, était d’accompagner le lapin de Pâques dans sa mission de distribution de chocolats pour faire plaisir à tous les enfants.">
+  <meta itemprop="datePublished" content="2025-04-11T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-04-11T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1542">
+  <meta itemprop="keywords" content="Rêve,Aventure,Egalité">
+
+      <header>
+        <h1 itemprop="headline">Spikette, hérisonne de Pâques</h1>
+        <p class="text-sm">
+          
+            <span data-format="luxon">2025-04-11T00:00:00Z</span>
+          
+
+          | <span>8 minutes de lecture</span>
+
+          
+          | <span>Mise à jour le
+            
+              <span data-format="luxon">2025-04-11T00:00:00Z</span>
+            </span>
+          
+        </p>
+
+        
+        <div class="flex justify-between">
+          
+            <div class="flex items-center">
+  
+  <div class="avatar mr-1">
+    <div class="w-8 rounded-full">
+      <img class="my-0!" src="/img/personal/avatar.png" alt="Griotte Lapone" />
+    </div>
+  </div>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">Griotte Lapone</span>
+    
+  
+  </span>
+</div>
+
+          
+
+          <div class="flex items-center gap-2">
+
+</div>
+
+        </div>
+      </header>
+
+      <section id="dream-single-post-content" itemprop="articleBody">
+        
+
+        <p>Spikette était une maman comblée. Elle adorait prendre soin de ses cinq choupissons trop mignons. Tous les jours, c’était la même chose : après un bon petit-déjeuner à base de limaces, elle leur faisait l’école. Et comme ses petits polissons ne tenaient pas en place, l’après-midi, elle les emmenait en balade à travers les forêts et les champs : ils faisaient connaissance avec les autres animaux qui peuplaient les sous-bois et rencontraient des tas d’amis.<br>
+Spikette prenait son rôle de maman très à cœur et elle chérissait ses enfants. Pourtant, dès que ses hérissoneaux dormaient, son imagination la rattrapait. Elle aimait sa vie bien sûr, mais elle ne pouvait s’empêcher de rêver d’aider les oiseaux à construire leurs nids le printemps venu. Elle se voyait aussi bâtir des barrages avec les castors ou encore être guide des bois pour les animaux de passage. Elle ne manquait pas d’idées. Mais son rêve le plus fou, son plus grand secret, était d’accompagner le lapin de Pâques dans sa mission de distribution de chocolats pour faire plaisir à tous les enfants.</p>
+<p>Un soir, au moment de mettre ses choupissons au lit, l’un d’entre eux, le plus malin appelé Fripouille, lui posa la question suivante :</p>
+<ul>
+<li><em>Dis, Maman, est-ce qu’on pourrait faire l’école buissonnière demain pour partir à l’aventure ?</em></li>
+<li><em>En voilà une idée</em>, répondit Spikette.</li>
+<li><em>S’il te plait, s’il te plait</em>, répétèrent en chœur ses cinq adorables petits hérissons en la regardant avec des yeux charmeurs.</li>
+</ul>
+<p>Elle ne pouvait résister à leurs frimousses et finit par accepter :</p>
+<ul>
+<li><em>D’accord, mais promettez-moi de bien m’écouter et de ne pas faire trop de bêtises demain.</em></li>
+<li><em>Youpi</em>, sautèrent-ils tous de joie.</li>
+<li><em>Au dodo maintenant. Bonne nuit mes amours.</em></li>
+</ul>
+<p>Ce qu’elle ignorait, c’est que Fripouille et ses frères lui réservaient une surprise. Ils connaissaient le secret de leur maman, car Spikette parlait en dormant !
+Lors de leur promenade quotidienne cet après-midi-là, ils avaient surpris la conversation de Gégé l’écureuil et de son cousin :</p>
+<ul>
+<li><em>Tu sais que le lapin de Pâques commence à s’échauffer pour sa tournée. Si tu veux, on peut aller le voir demain, il parait que c’est spectaculaire</em>, disait Gégé.</li>
+<li><em>Je veux ! Ça se passe où ?</em> répondit son cousin.</li>
+<li><em>Près du grand chêne, à côté du ruisseau.</em></li>
+</ul>
+<p>Ce n’était pas tombé dans l’oreille d’un sourd : Fripouille le choupisson réussit à convaincre ses frères d’y emmener Spikette pour qu’elle rencontre la légende qu’elle admirait tant et qu’elle enviait un peu aussi.</p>
+<p>Le lendemain matin, il faisait beau et Spikette avait préparé un délicieux pique-nique. C’était la journée idéale pour partir en exploration.</p>
+<ul>
+<li><em>C’est parti pour l’aventure !</em> dit la maman hérisson.</li>
+<li><em>Et si on allait près du ruisseau pour faire une bataille d’eau ?</em> proposa Fripouille.</li>
+</ul>
+<p>Toute la petite famille se mit en route en chantant. Alors qu’ils approchaient du fameux ruisseau, Spikette aperçut une silhouette qui gesticulait dans tous les sens sous le grand chêne. Elle plissa ses yeux et le reconnut immédiatement : mais oui, c’était bien lui…le célèbre lapin de Pâques ! Ses enfants la regardaient en attendant une réaction. Comme elle semblait muette, Fripouille et ses frères crièrent :</p>
+<ul>
+<li><em>Surprise !</em></li>
+<li><em>Ça alors, pour une surprise, c’est incroyable</em>, finit-elle par dire. <em>Mais comment est-ce possible ?</em></li>
+</ul>
+<p>Les choupissons lui racontèrent comment ils avaient découvert son secret et ils lui parlèrent de la conversation de Gégé avec son cousin. Elle était émue et reconnaissante d’avoir des enfants si débrouillards, bienveillants et généreux. Elle se dit qu’une occasion pareille ne se présenterait pas deux fois. Alors, elle prit son courage à deux mains et dit à ses hérissons :</p>
+<ul>
+<li><em>Allez-vous amuser, mais ne vous éloignez pas trop. Je reviens. J’ai quelque chose de très important à faire.</em></li>
+</ul>
+<p>Les hérissonneaux étaient tous fiers du courage de leur maman et l’observaient au loin.
+Elle inspira profondément, puis se dirigea en direction du grand chêne où le lapin de Pâques faisait des pompes.</p>
+<ul>
+<li><em>Excusez-moi</em>, fit Spikette.</li>
+</ul>
+<p>Le lapin de Pâques s’arrêta net et tout en se relevant dit :</p>
+<ul>
+<li><em>Vous voulez un autographe ? Je n’ai pas de stylo sur moi. Je m’entraîne au cas où vous n’auriez pas remarqué.</em></li>
+<li><em>Mais pas du tout ! Que voulez-vous que j’en fasse ?! Je suis ici pour vous proposer quelque chose.</em></li>
+<li><em>Je vous écoute</em>, répliqua Léo avec curiosité.</li>
+<li><em>Voilà, je m’appelle Spikette. Je me disais que votre métier était passionnant. Mais faire ça tout seul, c’est certainement très fatigant. Aussi, je vous propose mon aide. Je ne suis pas très rapide mais je suis très motivée.</em></li>
+</ul>
+<p>Léo éclata de rire.</p>
+<ul>
+<li><em>Qu’y-a-t’il de si drôle ?</em> fit remarquer Spikette.</li>
+<li><em>Pardon ma p’tite dame, mais c’est un boulot de lapin, pas un loisir de maman à la recherche de sensations. Dans ma famille, on est lapin de Pâques de père en fils. C’est la tradition. Et on s’entraîne dur pour cela.</em></li>
+<li><em>Et bien, je trouve ça triste que vous soyez aussi fermé d’esprit chez « les lapins de Pâques de père en fils » !</em> répondit notre Spikette piquée à vif. <em>D’ailleurs, vous aimez votre métier ou c’est juste parce que c’est la tradition ?</em></li>
+</ul>
+<p>Léo ne répondit pas et détalla à toute allure. Spikette était déçue mais ne montra rien à ses enfants qui, de loin n’avaient heureusement rien entendu à la conversation. Elle alla les rejoindre pour jouer avec eux.</p>
+<p>L’histoire pourrait s’arrêter là, mais c&rsquo;était sans compter sur Albertine la chouette, qui du haut de sa branche sur le grand chêne, avait tout entendu. « Pauvre gentille hérissonne, pensa-t-elle. Et quel lapin prétentieux ! Il faut que je retrouve Léo et que j’essaie de lui parler. ». Albertine était une chouette vraiment très chouette et cherchait toujours à rendre service. Elle déploya ses ailes et survola la forêt à la recherche du lapin de Pâques. Elle ne mit pas longtemps à le retrouver. Il était de nouveau en train de faire sa gymnastique. Elle se posa à côté de lui et lui dit d’un ton sec :</p>
+<ul>
+<li><em>Tu pourrais au moins lui accorder sa chance.</em></li>
+<li><em>De quoi tu me parles, Albertine ? De la hérissonne qui croit qu’elle peut faire le travail d’un lapin ?! Chacun sa place.</em></li>
+<li><em>Je te trouve injuste. Après tout, pourquoi une hérissone ne pourrait pas faire la joie des enfants à Pâques ? En plus, elle te propose de t’aider, pas de te remplacer. C’est généreux de sa part</em>, argumenta la chouette.</li>
+<li><em>Fiche-moi la paix, j’ai à faire</em>, répondit le lapin de Pâques agacé.</li>
+<li><em>Comme tu voudras, mais rappelle-toi d’une chose Léo. Peu importe qu’on soit un lapin ou une maman hérisson, nous sommes tous égaux dans cette forêt. Et les traditions ne sont pas toujours bonnes. Un peu de modernité et d’ouverture d’esprit te rendraient plus agréable. Si les enfants connaissaient ta vraie nature, ils t’apprécieraient beaucoup moins.</em></li>
+</ul>
+<p>Et Albertine s’envola laissant Léo seul face à lui-même. Au fond de lui, il savait que la chouette avait raison. Lui aussi possédait d’ailleurs un secret que tout le monde ignorait : il perpétuait la tradition pour faire plaisir à son père et ne pas le décevoir. Au fond de lui, le lapin avait envie d’autre chose. Mais il préférait ne pas trop y penser car il devait faire la fierté de sa famille, tant pis pour ses rêves à lui !</p>
+<p>Il marcha plusieurs heures en réfléchissant aux paroles d’Albertine : « c’est vrai qu’un peu d’aide serait la bienvenue. Peut-être que Spikette pourrait apporter des chocolats aux enfants les plus proches du bois. Quant à moi, je pourrai aller beaucoup plus loin et en profiter pour prendre le temps découvrir enfin le monde ! ». Rien que d’y penser, il souriait tout seul. Alors, il se mit à courir jusqu’au grand chêne pour retrouver la chouette.</p>
+<ul>
+<li><em>Albertine</em>, cria-t-il de toutes ses forces. <em>Albertine, tu es là ? Réponds !!</em></li>
+<li><em>J’arrive</em>, dit-elle et elle se posa à côté de Léo.</li>
+<li><em>Où habite Spikette ? Je dois lui parler.</em></li>
+</ul>
+<p>Albertine, la chouette et Léo le lapin de Pâques se dirigèrent vers la petite maison des hérissons.</p>
+<p>Quand Spikette était rentrée chez elle ce jour-là, elle ne chantait plus sur le chemin. Et même si elle avait raconté que le lapin de Pâques avait été très gentil avec elle, Fripouille et ses frères avaient remarqué la tristesse dans ses yeux. C’est pour ça que quand Léo toqua à sa porte, tous ses choupissons restaient derrière elle pour montrer qu’ils étaient une famille soudée.</p>
+<ul>
+<li><em>Spikette, je voulais m’excuser pour mon comportement. Je me sens nul. Et je crois que tu as raison : on pourrait former une super équipe tous les deux. A condition que tu veuilles toujours m’aider ?</em></li>
+</ul>
+<p>Spikette n’en croyait pas ses oreilles. Le lapin de Pâques en personne lui proposait de travailler à ses côtés. Elle ne mit pas beaucoup de temps à accepter.</p>
+<ul>
+<li><em>Marché conclu, monsieur le lapin de Pâques, mais à une condition.</em></li>
+<li><em>Laquelle ?</em> répondit-il un peu embarrassé.</li>
+<li><em>Commencer par me donner ton prénom !</em> dit malicieusement la maman hérisson en riant.</li>
+</ul>
+<p>Et voilà comment Spikette et Léo décidèrent de préparer Pâques ensemble. Alors cette année, guette bien ton jardin, car on ne sait jamais…il se peut qu’une petite maman hérisson, qui a bousculé les traditions, passe par chez toi pour y déposer tes chocolats préférés.</p>
+<img src="/img/03-Spikette.jpg" alt="Spikette">
+
+        
+      </section>
+
+      
+      <div class="divider"></div>
+      <div class="flex flex-col md:flex-row justify-between gap-4 py-4">
+        
+        <div></div>
+        
+
+        
+        <a role="button" class="btn btn-outline h-12" href="/posts/02-toctoc/" title="Toctoc, le panda foufou">
+          <div class="inline-flex flex-col items-end">
+            <span class="text-base-content/60 text-xs font-normal">Histoire suivante</span>
+            <span class="max-w-48 truncate">Toctoc, le panda foufou</span>
+          </div>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </a>
+        
+      </div>
+      
+
+      
+      <div class="divider"></div>
+
+      <section class="space-y-4">
+        
+
+
+<template x-if="['localhost', '127.0.0.1'].indexOf(window.location.hostname) == -1">
+  <article>
+    <script
+      src="https://utteranc.es/client.js"
+      repo="histoires2dansmatete/histoires2dansmatete.github.io"
+      issue-term="og:title"
+      theme="github-light"
+      crossorigin="anonymous"
+      async>
+    </script>
+  </article>
+</template>
+
+
+
+
+
+
+
+
+      </section>
+      
+    </article>
+  </div>
+
+  <div class="hidden lg:flex lg:flex-col lg:items-end">
+    
+  </div>
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 Les histoires de « Dans ma tête »
+  </p>
+  
+
+  
+  <p>Des histoires mignonnes inventées pour mes fils qui souhaitent les partager à tous les enfants.</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 Les histoires de « Dans ma tête »
+  </p>
+  
+
+  
+  <p>Des histoires mignonnes inventées pour mes fils qui souhaitent les partager à tous les enfants.</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+    
+  
+  <script src="/js/grid.min.js"></script>
+
+
+
+
+  
+
+<script src="/js/main.min.js"></script>
+
+    
+
+
+<script
+  src="https://cdn.jsdelivr.net/npm/luxon@1.26.0"
+  integrity="sha256-4sbTzmCCW9LGrIh5OsN8V5Pfdad1F1MwhLAOyXKnsE0="
+  crossorigin="anonymous"
+></script>
+<script>
+  format()
+
+  function format() {
+    document.querySelectorAll('span[data-format="luxon"]').forEach(el => {
+      const date = el.textContent
+
+      el.textContent = luxon.DateTime.fromISO(date, { locale: "fr" }).toFormat("yyyy-MM-dd")
+    })
+  }
+</script>
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.esm.js" integrity="sha256-/IFmi82bIhdYWctu0UddSlJqpnzWm7Vh2C4CM32wF/k=" crossorigin="anonymous"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.js" integrity="sha256-mr7eJMX3VC3F7G32mk4oWp1C6a2tlMYxUdptfT7uKI8=" crossorigin="anonymous"></script>
+  </body>
+</html>
