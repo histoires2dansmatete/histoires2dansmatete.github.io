@@ -2,31 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Les histoires de « Dans ma tête »</title>
-    <link>https://histoires2dansmatete.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Les histoires de « Dans ma tête »</description>
     <generator>Hugo</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Fri, 11 Apr 2025 19:53:17 +0200</lastBuildDate>
-    <atom:link href="https://histoires2dansmatete.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Petit ourson deviendra grand</title>
+      <link>http://localhost:1313/posts/04-flash/</link>
+      <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/04-flash/</guid>
+      <description>&lt;p&gt;Aujourd’hui, le soleil brille à nouveau et les oiseaux chantent. Le printemps revient après de longs mois où tous les animaux ont grelotté au fond de leurs habitats. Enfin, presque tous les animaux&amp;hellip; Car chez les Grognonouche, on reste au lit et en pyjama de décembre à avril.&lt;br&gt;&#xA;C’est une tradition très importante dans la famille de Flash, l’ourson. En attendant des jours plus doux, on peut les entendre ronfler très fort du soir au matin et du matin au soir dans leur tanière.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Spikette, hérisonne de Pâques</title>
-      <link>https://histoires2dansmatete.github.io/posts/03-spikette/</link>
+      <link>http://localhost:1313/posts/03-spikette/</link>
       <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://histoires2dansmatete.github.io/posts/03-spikette/</guid>
+      <guid>http://localhost:1313/posts/03-spikette/</guid>
       <description>&lt;p&gt;Spikette était une maman comblée. Elle adorait prendre soin de ses cinq choupissons trop mignons. Tous les jours, c’était la même chose : après un bon petit-déjeuner à base de limaces, elle leur faisait l’école. Et comme ses petits polissons ne tenaient pas en place, l’après-midi, elle les emmenait en balade à travers les forêts et les champs : ils faisaient connaissance avec les autres animaux qui peuplaient les sous-bois et rencontraient des tas d’amis.&lt;br&gt;&#xA;Spikette prenait son rôle de maman très à cœur et elle chérissait ses enfants. Pourtant, dès que ses hérissoneaux dormaient, son imagination la rattrapait. Elle aimait sa vie bien sûr, mais elle ne pouvait s’empêcher de rêver d’aider les oiseaux à construire leurs nids le printemps venu. Elle se voyait aussi bâtir des barrages avec les castors ou encore être guide des bois pour les animaux de passage. Elle ne manquait pas d’idées. Mais son rêve le plus fou, son plus grand secret, était d’accompagner le lapin de Pâques dans sa mission de distribution de chocolats pour faire plaisir à tous les enfants.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Toctoc, le panda foufou</title>
-      <link>https://histoires2dansmatete.github.io/posts/02-toctoc/</link>
+      <link>http://localhost:1313/posts/02-toctoc/</link>
       <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://histoires2dansmatete.github.io/posts/02-toctoc/</guid>
+      <guid>http://localhost:1313/posts/02-toctoc/</guid>
       <description>&lt;p&gt;Toctoc, le panda foufou n’aime pas les bambous, ils ont toujours le même goût. Il n’aime pas non plus être noir et blanc, il trouve que ça le vieillit. Il n’apprécie pas plus de rester dans sa forêt isolée dans les montagnes car il déteste la solitude et ça le rend grognon.&lt;br&gt;&#xA;Toctoc, le panda foufou rêve de manger des hamburgers et des pizzas. Il rêve d’être multicolore comme les arcs-en-ciel qu’il trouve extraordinaires. Il rêve de vivre en ville où il pourrait avoir des tas d’amis.&#xA;Oui, mais voilà, il a beau avoir envie de parcourir le monde pour en voir toutes les couleurs et en goûter toutes les saveurs, il sait que le chemin risque d’être fastidieux pour arriver à destination et ça le décourage beaucoup. Lorsqu’il pense à ce long voyage, on entend souvent son écho hurler « FLEMME ! » dans toute la montagne. Il faut dire que Toctoc, le panda foufou vit plus à travers ses rêves que dans la réalité.&lt;/p&gt;</description>
     </item>
     <item>
       <title>L’amitié, comme sur des roulettes !</title>
-      <link>https://histoires2dansmatete.github.io/posts/01-minipeton/</link>
+      <link>http://localhost:1313/posts/01-minipeton/</link>
       <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://histoires2dansmatete.github.io/posts/01-minipeton/</guid>
+      <guid>http://localhost:1313/posts/01-minipeton/</guid>
       <description>&lt;p&gt;Il était une fois un gentil petit dinosaure appelé Minipeton. Il vivait seul avec sa maman dans une grande et belle forêt. Minipeton rêvait secrètement de se faire des amis. Dès qu&amp;rsquo;il croisait les autres petits dinosaures de son âge, il leur disait :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Bonjour les copains, vous voulez bien jouer avec moi ?&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Tout le monde se moquait de lui parce qu&amp;rsquo;il était un peu différent. Ce n&amp;rsquo;était pas une grande différence, mais cela suffisait pour qu&amp;rsquo;il soit mis à l&amp;rsquo;écart. En effet, Minipeton avait de tous petits pieds qui l&amp;rsquo;empêchaient de marcher vite et de courir comme les autres.&lt;/p&gt;</description>
     </item>
   </channel>

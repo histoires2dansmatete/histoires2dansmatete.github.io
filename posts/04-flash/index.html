@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="fr-fr"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petit ourson deviendra grand | Les histoires de « Dans ma tête »</title>
+
+    
+  
+    <link href="/img/personal/favicon.png" rel="icon" type="image/x-icon" />
+  
+
+
+<link rel="canonical" href="http://localhost:1313/posts/04-flash/" />
+
+
+
+<meta name="author" content="Griotte Lapone" />
+<meta name="description" content="Aujourd’hui, le soleil brille à nouveau et les oiseaux chantent. Le printemps revient après de longs mois où tous les animaux ont grelotté au fond de leurs habitats. Enfin, presque tous les animaux&hellip; Car chez les Grognonouche, on reste au lit et en pyjama de décembre à avril.
+C’est une tradition très importante dans la famille de Flash, l’ourson. En attendant des jours plus doux, on peut les entendre ronfler très fort du soir au matin et du matin au soir dans leur tanière.
+" />
+
+
+<meta name="keywords" content="Grandir">
+
+
+
+<meta name="generator" content="Hugo 0.145.0">
+
+
+<meta property="og:url" content="http://localhost:1313/posts/04-flash/">
+  <meta property="og:site_name" content="Les histoires de « Dans ma tête »">
+  <meta property="og:title" content="Petit ourson deviendra grand">
+  <meta property="og:description" content="Aujourd’hui, le soleil brille à nouveau et les oiseaux chantent. Le printemps revient après de longs mois où tous les animaux ont grelotté au fond de leurs habitats. Enfin, presque tous les animaux… Car chez les Grognonouche, on reste au lit et en pyjama de décembre à avril.
+C’est une tradition très importante dans la famille de Flash, l’ourson. En attendant des jours plus doux, on peut les entendre ronfler très fort du soir au matin et du matin au soir dans leur tanière.">
+  <meta property="og:locale" content="fr_fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-04-16T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-04-16T00:00:00+00:00">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Petit ourson deviendra grand">
+  <meta name="twitter:description" content="Aujourd’hui, le soleil brille à nouveau et les oiseaux chantent. Le printemps revient après de longs mois où tous les animaux ont grelotté au fond de leurs habitats. Enfin, presque tous les animaux… Car chez les Grognonouche, on reste au lit et en pyjama de décembre à avril.
+C’est une tradition très importante dans la famille de Flash, l’ourson. En attendant des jours plus doux, on peut les entendre ronfler très fort du soir au matin et du matin au soir dans leur tanière.">
+
+
+
+
+<link rel="stylesheet" href="/css/output.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+    <link rel="stylesheet" href="/css/custom.css" />
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js" integrity="sha256-PtHu0lJIiSHfZeNj1nFd6wTX+Squ255SGZ/fc8seCtM=" crossorigin="anonymous"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav class="mt-4 lg:mt-8 py-4">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:avatar-online">
+        <div class="h-10 rounded-full">
+          <img src="/img/personal/avatar.png" alt="Les histoires de « Dans ma tête »" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="http://localhost:1313/" class="text-lg font-semibold cursor-pointer site-title">
+          Les histoires de « Dans ma tête »
+        </a>
+        
+      </div>
+      
+    </section>
+
+    
+    
+      
+    
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-1 shadow-md">
+        
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="group inline-flex items-center p-2 cursor-pointer" href="/search" title="Rechercher une histoire">
+    <ion-icon name="search"></ion-icon>
+    Rechercher une histoire
+  </a>
+</li>
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="https://www.instagram.com/les_histoires_2_dans_ma_tete/" target="_blank" title="Instagram">
+    
+    <ion-icon name="logo-instagram"></ion-icon>
+    
+    Instagram
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives à histoire">
+    <ion-icon name="archive"></ion-icon>
+    Archives à histoire
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="Toutes les catégories">
+    <ion-icon name="grid"></ion-icon>
+    Toutes les catégories
+  </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+
+      
+      
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/search" title="Rechercher une histoire">
+  <ion-icon class="group-hover:text-primary-content" name="search"></ion-icon>
+</a>
+
+
+      
+      
+
+
+
+  
+  <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="https://www.instagram.com/les_histoires_2_dans_ma_tete/" target="_blank" title="Instagram">
+    <ion-icon class="group-hover:text-primary-content" name="logo-instagram"></ion-icon>
+  </a>
+  
+
+
+
+      
+
+      <div class="dropdown dropdown-end dropdown-hover">
+        <div tabindex="0" role="button" class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" aria-label="Select an option">
+          <ion-icon class="group-hover:text-primary-content text-xl" name="menu"></ion-icon>
+        </div>
+        <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-1 shadow-xl">
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives à histoire">
+    <ion-icon name="archive"></ion-icon>
+    Archives à histoire
+  </a>
+</li>
+
+
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="Toutes les catégories">
+    <ion-icon name="grid"></ion-icon>
+    Toutes les catégories
+  </a>
+</li>
+
+
+          
+          
+
+
+
+
+
+          
+          
+
+
+
+
+
+          
+
+          
+          
+
+
+
+
+
+
+
+
+
+
+          
+        </ul>
+      </div>
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    
+  </div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="Petit ourson deviendra grand">
+  <meta itemprop="description" content="Aujourd’hui, le soleil brille à nouveau et les oiseaux chantent. Le printemps revient après de longs mois où tous les animaux ont grelotté au fond de leurs habitats. Enfin, presque tous les animaux… Car chez les Grognonouche, on reste au lit et en pyjama de décembre à avril.
+C’est une tradition très importante dans la famille de Flash, l’ourson. En attendant des jours plus doux, on peut les entendre ronfler très fort du soir au matin et du matin au soir dans leur tanière.">
+  <meta itemprop="datePublished" content="2025-04-16T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-04-16T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1464">
+  <meta itemprop="keywords" content="Grandir">
+
+      <header>
+        <h1 itemprop="headline">Petit ourson deviendra grand</h1>
+        <p class="text-sm">
+          
+            <span data-format="luxon">2025-04-16T00:00:00Z</span>
+          
+
+          | <span>7 minutes de lecture</span>
+
+          
+          | <span>Mise à jour le
+            
+              <span data-format="luxon">2025-04-16T00:00:00Z</span>
+            </span>
+          
+        </p>
+
+        
+        <div class="flex justify-between">
+          
+            <div class="flex items-center">
+  
+  <div class="avatar mr-1">
+    <div class="w-8 rounded-full">
+      <img class="my-0!" src="/img/personal/avatar.png" alt="Griotte Lapone" />
+    </div>
+  </div>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">Griotte Lapone</span>
+    
+  
+  </span>
+</div>
+
+          
+
+          <div class="flex items-center gap-2">
+
+</div>
+
+        </div>
+      </header>
+
+      <section id="dream-single-post-content" itemprop="articleBody">
+        
+
+        <p>Aujourd’hui, le soleil brille à nouveau et les oiseaux chantent. Le printemps revient après de longs mois où tous les animaux ont grelotté au fond de leurs habitats. Enfin, presque tous les animaux&hellip; Car chez les Grognonouche, on reste au lit et en pyjama de décembre à avril.<br>
+C’est une tradition très importante dans la famille de Flash, l’ourson. En attendant des jours plus doux, on peut les entendre ronfler très fort du soir au matin et du matin au soir dans leur tanière.</p>
+<p>Ce matin-là, Papa et Maman Grognonouche se sont finalement réveillés et doivent s’absenter pour aller à la cueillette. Ils laissent alors un mot sur la table de nuit de leur ourson, ne voulant pas le sortir de son sommeil, lui qui dort si bien.
+A peine sont-ils partis que Flash se met à bouger les pattes, puis la tête, à ouvrir un œil, puis le second et enfin à s’étirer en baillant. Cependant, il s’aperçoit que plusieurs choses le gênent. Tout d’abord, il a les pattes qui dépassent de sa couverture et ça, il n’aime pas du tout. Il a l’impression que de vilains lutins vont venir lui croquer les papattounes. Ensuite, il remarque que son pyjama est trop serré. « Il était pourtant à ma taille quand je me suis mis au lit en décembre ! » grommèle-t-il. « Oh ma voix, mais quelle drôle de voix&hellip; On dirait que j’ai avalé un chat ! ». Il se râcle la gorge et décide de se lever. Il s’assoit au bord de son lit, le corps toujours à l’étroit dans son pyjama trop court. Il pose ses pieds poilus à terre et essaye de mettre ses chaussons. « Mais heu, pourquoi ça ne rentre pas ! » s’énerve-t-il. Décidément, la journée commence mal.<br>
+Il se dit que tout ira mieux après un bon petit déjeuner. Alors qu’il se dirige vers la cuisine, il voit son reflet dans la fenêtre devant lui. Il croit d’abord voir son grand cousin Barry. Il plisse les yeux et se pince pour être bien sûr qu’il ne dort plus. Mais que s’est-il passé ? Il ne se reconnait plus ! Il se met à hurler : « Papa, Maman ! Au secours ! ». Pas de réponse. Il court partout dans la tanière à la recherche de ses parents. Et comme il ne les trouve pas, il se met à pleurer. Etrange car d’habitude, il ne pleure presque jamais. Il a peur et se sent seul. « Je ne comprends rien, c’est un cauchemar ! » se lamente-t-il.<br>
+Il décide de retourner dans sa chambre pour tenter de trouver des vêtements à sa taille. C’est là qu’il trouve le mot de ses parents :</p>
+<img src="/img/04-Flash-2.jpg" alt="Flash-Memo"><p>Aussitôt, il part à la recherche de sa maman et de son papa. Il a besoin d’un gros câlin, de réconfort mais surtout de comprendre ce qui lui arrive.</p>
+<p>Après quelques minutes de marche, l’ourson entend une voix qu’il connaît bien. C’est Croûton, le castor hyperactif. Il est très bavard et parle souvent seul. Flash se dit qu’avec un peu de chance, il a aperçu ses parents. Alors qu’il s’approche de lui, Croûton lui dit :</p>
+<ul>
+<li><em>Bonjour cher ami. Avons-nous déjà été présenté ? Votre visage ne m’est pas inconnu, mais je croise beaucoup de monde, vous savez. Je vais et je viens sur tous les chemins et je &hellip;</em></li>
+<li><em>Croûton, c’est moi</em>, l’interrompt Flash.</li>
+<li><em>Moi qui ? Parce que moi aussi, je suis moi et voyez-vous, ce n’est pas toujours très simple. Figurez-vous que l’autre jour, j’étais à &hellip;</em></li>
+<li><em>Mais enfin, tu ne me reconnais pas ?</em> l’interroge Flash.</li>
+<li><em>Sachez deux choses mon garçon : on ne tutoie pas les inconnus et on n’interrompt pas les gens lorsqu’ils parlent. C’est très mal poli ! Surtout lorsqu’ils ont des anecdotes aussi croustillantes que les miennes et je peux vous dire qu’en terme de croustillant, j’en connais un paquet. D’ailleurs, savez-vous quel bois croustille le plus sous la dent ?</em></li>
+<li><em>Non, Croûton. Mais je vous écoute</em>, répond l’ourson en soupirant.</li>
+<li><em>Le bois le plus croustillant, c’est le&hellip;mais attendez, d’où connaissez-vous mon prénom ?</em> s’étonne le castor.</li>
+<li><em>Parce je suis Flash et qu’on se connaît depuis toujours !</em></li>
+<li><em>Vous faites erreur, mon petit Monsieur. Flash est un ourson, pas un ado-nourson. Décidemment, quel personnage étrange que voilà. Vous faire passer pour un ami&hellip;mais que cherchez-vous à la fin ?</em></li>
+</ul>
+<p>Flash sent ses larmes monter mais essaie de rester digne.</p>
+<ul>
+<li><em>Justement, je cherche mes parents qui sont partis à la cueillette dans la clairière du bois enchanté et je me demandais si tu…enfin vous les auriez aperçus récemment ?</em></li>
+<li><em>Je ne sais pas à quoi vous jouez. Même si j’avais cette information, je ne vous dirais certainement pas qu’ils sont passés par ici il y a deux heures environ. Ça non, je ne révèlerais jamais cette information à un imposteur comme vous</em>, reprend Croûton.</li>
+<li><em>Je vais y aller, je pense. Merci</em>, dit Flash.</li>
+</ul>
+<p>Alors que l’ourson se remet en route, il réfléchit. Comment est-ce possible que son ami Croûton ne l’ait pas reconnu et que tout lui parait si différent ce matin ? Plus il y pense, plus il a envie de rattraper ses parents pour se sentir rassuré. Il continue de marcher quand soudain, il aperçoit Ben et Nut’s, les écureuils jumeaux toujours prêts à faire des bêtises. Ils se mettent à courir vers lui en criant :</p>
+<ul>
+<li><em>Hey, Flash, ça gazouille chez les Grognonouche ?</em></li>
+</ul>
+<p>Flash est heureux d’être enfin reconnu !</p>
+<ul>
+<li><em>Ça va les amis. Vous me reconnaissez ?</em> dit-il avec une pointe d’hésitation.</li>
+<li><em>Bien évidement, quelle question ?!</em> lui répond Nut’s en lui grimpant dessus et en le chatouillant.</li>
+</ul>
+<p>Flash se met à rire et retrouve un peu d’insouciance.</p>
+<ul>
+<li><em>L’hiver t’a fait pousser comme un champignon, mais tu gardes ta frimousse</em>, rétorque Ben à son tour.</li>
+</ul>
+<p>L’ourson se met alors à leur raconter ses aventures de son réveil à sa rencontre avec Croûton. Ben et Nut’s se mettent à rire.</p>
+<ul>
+<li><em>Pourquoi ça vous fait rire ?</em> demande Flash.</li>
+<li><em>Croûton, comme son nom l’indique n’est qu’un vieux croûton : à moitié aveugle et complètement dans la lune. Et puis, il est aussi très taquin et je suis sûr qu’il l’a fait exprès</em>, s’exclame Nut’s.</li>
+<li><em>Il a dû être surpris en te voyant si grand et ça a dû lui rappeler le début de son adolescence au siècle dernier</em>, ajoute Ben en se tordant de rire.</li>
+<li><em>Son adonaissance ?</em> interroge Flash.</li>
+<li><em>Son adolescence</em>, répondent les frères écureuils en chœur.</li>
+<li><em>Mais c’est quoi ce truc ? Parce que moi, je ne comprends rien à ce qui m’arrive !</em></li>
+<li><em>Ce n’est pas grave du tout</em>, le rassure Nut’s. <em>Tiens, tu te souviens Ben quand on est entré dans l’adolescence ?</em></li>
+<li><em>Parce que c’est un endroit où on peut entrer ?</em> s’étonne Flash.</li>
+<li><em>Tu es vraiment très drôle. Non, c’est une expression</em>, répond Ben.</li>
+<li><em>Bref</em>, reprend Nut’s en s’adressant à Flash. <em>Tu vois mon pote, tu as été un bébé, puis un ourson. Un jour, tu seras un adulte. Mais avant, il y a une autre étape, c’est la fameuse adolescence.</em></li>
+<li><em>Oui, mais comment on sait qu’on est entré dedans ?</em> demande Flash intimidé.</li>
+<li><em>Facile : ton corps et ta voix changent, tu peux être souvent de mauvaise humeur, tu peux même te mettre à pleurer sans raison, tu vas manger comme un ogre et tu vas être encore plus poilu</em>, lui explique Ben.</li>
+</ul>
+<p>La voilà, l’explication ! Flash devient un ado-nourson. Croûton, le castor savait et lui en a même parlé, mais trop concentré à vouloir retrouver ses parents, Flash n’y avait pas prêté attention.</p>
+<ul>
+<li><em>Merci les copains de m’avoir expliqué. Je me sens déjà beaucoup mieux. Mais ça ne fait pas mal au moins l’adolescence ?</em></li>
+<li><em>Mal ? Non, absolument pas</em>, reprend Ben. <em>Ça ne va pas être marrant tous les jours par contre, car tu vas avoir envie d’être grand et de rester petit. C’est un peu comme avoir envie de manger ton petit-déjeuner et ton diner en même temps, c’est un mélange de goûts et de saveurs ni agréables ni désagréables, mais qui donnent des sensations bizarres.</em></li>
+<li><em>Ado-nourson prêt à grandir !</em> lance Flash. <em>Même pas peur !</em></li>
+</ul>
+<p>Et tous se mettent à rire.</p>
+<p>Au même moment, deux silhouettes arrivent au loin. C’est papa et maman Grognonouche qui rentrent de la cueillette. Flash se met à courir vers eux.</p>
+<ul>
+<li><em>Bonjour mon fils</em>, dit papa ours. <em>Tu as bien grandi cet hiver.</em></li>
+<li><em>Je suis un ado-nourson</em>, répond Flash avec assurance.</li>
+<li><em>C’est vrai</em>, répond sa maman. <em>Et je suis fière de l’ours que tu es en train de devenir.</em></li>
+<li><em>Mais tu resteras notre ourson d’amour pour toute la vie, reprend papa en serrant fort son fils dans ses bras.</em></li>
+</ul>
+<p>Flash se sent rassuré et prêt à affronter cette nouvelle étape de sa vie.</p>
+<img src="/img/04-Flash.jpg" alt="Flash">
+
+        
+      </section>
+
+      
+      <div class="divider"></div>
+      <div class="flex flex-col md:flex-row justify-between gap-4 py-4">
+        
+        <div></div>
+        
+
+        
+        <a role="button" class="btn btn-outline h-12" href="/posts/03-spikette/" title="Spikette, hérisonne de Pâques">
+          <div class="inline-flex flex-col items-end">
+            <span class="text-base-content/60 text-xs font-normal">Découvrir une histoire</span>
+            <span class="max-w-48 truncate">Spikette, hérisonne de Pâques</span>
+          </div>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </a>
+        
+      </div>
+      
+
+      
+      <div class="divider"></div>
+
+      <section class="space-y-4">
+        
+
+
+<template x-if="['localhost', '127.0.0.1'].indexOf(window.location.hostname) == -1">
+  <article>
+    <script
+      src="https://utteranc.es/client.js"
+      repo="histoires2dansmatete/histoires2dansmatete.github.io"
+      issue-term="og:title"
+      theme="github-light"
+      crossorigin="anonymous"
+      async>
+    </script>
+  </article>
+</template>
+
+
+
+
+
+
+
+
+      </section>
+      
+    </article>
+  </div>
+
+  <div class="hidden lg:flex lg:flex-col lg:items-end">
+    
+  </div>
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 Les histoires de « Dans ma tête »
+  </p>
+  
+
+  
+  <p>Des histoires mignonnes inventées pour mes fils qui souhaitent les partager à tous les enfants.</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 Les histoires de « Dans ma tête »
+  </p>
+  
+
+  
+  <p>Des histoires mignonnes inventées pour mes fils qui souhaitent les partager à tous les enfants.</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+  <script src="/js/grid.js"></script>
+
+
+
+
+<script src="/js/main.js"></script>
+
+    
+
+
+<script
+  src="https://cdn.jsdelivr.net/npm/luxon@1.26.0"
+  integrity="sha256-4sbTzmCCW9LGrIh5OsN8V5Pfdad1F1MwhLAOyXKnsE0="
+  crossorigin="anonymous"
+></script>
+<script>
+  format()
+
+  function format() {
+    document.querySelectorAll('span[data-format="luxon"]').forEach(el => {
+      const date = el.textContent
+
+      el.textContent = luxon.DateTime.fromISO(date, { locale: "fr" }).toFormat("yyyy-MM-dd")
+    })
+  }
+</script>
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.esm.js" integrity="sha256-/IFmi82bIhdYWctu0UddSlJqpnzWm7Vh2C4CM32wF/k=" crossorigin="anonymous"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.js" integrity="sha256-mr7eJMX3VC3F7G32mk4oWp1C6a2tlMYxUdptfT7uKI8=" crossorigin="anonymous"></script>
+  </body>
+</html>
