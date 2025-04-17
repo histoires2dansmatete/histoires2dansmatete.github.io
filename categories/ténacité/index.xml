@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ténacité on Les histoires de « Dans ma tête »</title>
-    <link>http://localhost:1313/categories/t%C3%A9nacit%C3%A9/</link>
+    <link>https://histoires2dansmatete.github.io/categories/t%C3%A9nacit%C3%A9/</link>
     <description>Recent content in Ténacité on Les histoires de « Dans ma tête »</description>
     <generator>Hugo</generator>
     <language>fr-fr</language>
     <lastBuildDate>Tue, 08 Apr 2025 19:25:58 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/t%C3%A9nacit%C3%A9/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://histoires2dansmatete.github.io/categories/t%C3%A9nacit%C3%A9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Toctoc, le panda foufou</title>
-      <link>http://localhost:1313/posts/02-toctoc/</link>
+      <link>https://histoires2dansmatete.github.io/posts/02-toctoc/</link>
       <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/02-toctoc/</guid>
+      <guid>https://histoires2dansmatete.github.io/posts/02-toctoc/</guid>
       <description>&lt;p&gt;Toctoc, le panda foufou n’aime pas les bambous, ils ont toujours le même goût. Il n’aime pas non plus être noir et blanc, il trouve que ça le vieillit. Il n’apprécie pas plus de rester dans sa forêt isolée dans les montagnes car il déteste la solitude et ça le rend grognon.&lt;br&gt;&#xA;Toctoc, le panda foufou rêve de manger des hamburgers et des pizzas. Il rêve d’être multicolore comme les arcs-en-ciel qu’il trouve extraordinaires. Il rêve de vivre en ville où il pourrait avoir des tas d’amis.&#xA;Oui, mais voilà, il a beau avoir envie de parcourir le monde pour en voir toutes les couleurs et en goûter toutes les saveurs, il sait que le chemin risque d’être fastidieux pour arriver à destination et ça le décourage beaucoup. Lorsqu’il pense à ce long voyage, on entend souvent son écho hurler « FLEMME ! » dans toute la montagne. Il faut dire que Toctoc, le panda foufou vit plus à travers ses rêves que dans la réalité.&lt;/p&gt;</description>
     </item>
   </channel>

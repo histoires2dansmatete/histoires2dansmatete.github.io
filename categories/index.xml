@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Les histoires de « Dans ma tête »</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://histoires2dansmatete.github.io/categories/</link>
     <description>Recent content in Categories on Les histoires de « Dans ma tête »</description>
     <generator>Hugo</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Wed, 16 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Apr 2025 18:00:35 +0200</lastBuildDate>
+    <atom:link href="https://histoires2dansmatete.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Grandir</title>
-      <link>http://localhost:1313/categories/grandir/</link>
+      <link>https://histoires2dansmatete.github.io/categories/grandir/</link>
       <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/grandir/</guid>
+      <guid>https://histoires2dansmatete.github.io/categories/grandir/</guid>
       <description></description>
     </item>
     <item>
       <title>Aventure</title>
-      <link>http://localhost:1313/categories/aventure/</link>
+      <link>https://histoires2dansmatete.github.io/categories/aventure/</link>
       <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/aventure/</guid>
+      <guid>https://histoires2dansmatete.github.io/categories/aventure/</guid>
       <description></description>
     </item>
     <item>
       <title>Egalité</title>
-      <link>http://localhost:1313/categories/egalit%C3%A9/</link>
+      <link>https://histoires2dansmatete.github.io/categories/egalit%C3%A9/</link>
       <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/egalit%C3%A9/</guid>
+      <guid>https://histoires2dansmatete.github.io/categories/egalit%C3%A9/</guid>
       <description></description>
     </item>
     <item>
       <title>Rêve</title>
-      <link>http://localhost:1313/categories/r%C3%AAve/</link>
+      <link>https://histoires2dansmatete.github.io/categories/r%C3%AAve/</link>
       <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/r%C3%AAve/</guid>
+      <guid>https://histoires2dansmatete.github.io/categories/r%C3%AAve/</guid>
       <description></description>
     </item>
     <item>
       <title>Amitié</title>
-      <link>http://localhost:1313/categories/amiti%C3%A9/</link>
+      <link>https://histoires2dansmatete.github.io/categories/amiti%C3%A9/</link>
       <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/amiti%C3%A9/</guid>
+      <guid>https://histoires2dansmatete.github.io/categories/amiti%C3%A9/</guid>
       <description></description>
     </item>
     <item>
       <title>Ténacité</title>
-      <link>http://localhost:1313/categories/t%C3%A9nacit%C3%A9/</link>
+      <link>https://histoires2dansmatete.github.io/categories/t%C3%A9nacit%C3%A9/</link>
       <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/t%C3%A9nacit%C3%A9/</guid>
+      <guid>https://histoires2dansmatete.github.io/categories/t%C3%A9nacit%C3%A9/</guid>
       <description></description>
     </item>
     <item>
       <title>Confiance</title>
-      <link>http://localhost:1313/categories/confiance/</link>
+      <link>https://histoires2dansmatete.github.io/categories/confiance/</link>
       <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/confiance/</guid>
+      <guid>https://histoires2dansmatete.github.io/categories/confiance/</guid>
       <description></description>
     </item>
     <item>
       <title>Différence</title>
-      <link>http://localhost:1313/categories/diff%C3%A9rence/</link>
+      <link>https://histoires2dansmatete.github.io/categories/diff%C3%A9rence/</link>
       <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/diff%C3%A9rence/</guid>
+      <guid>https://histoires2dansmatete.github.io/categories/diff%C3%A9rence/</guid>
       <description></description>
     </item>
   </channel>

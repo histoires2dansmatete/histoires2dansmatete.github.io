@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Grandir on Les histoires de « Dans ma tête »</title>
-    <link>http://localhost:1313/categories/grandir/</link>
+    <link>https://histoires2dansmatete.github.io/categories/grandir/</link>
     <description>Recent content in Grandir on Les histoires de « Dans ma tête »</description>
     <generator>Hugo</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Wed, 16 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/grandir/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Apr 2025 18:00:35 +0200</lastBuildDate>
+    <atom:link href="https://histoires2dansmatete.github.io/categories/grandir/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Petit ourson deviendra grand</title>
-      <link>http://localhost:1313/posts/04-flash/</link>
+      <link>https://histoires2dansmatete.github.io/posts/04-flash/</link>
       <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/04-flash/</guid>
+      <guid>https://histoires2dansmatete.github.io/posts/04-flash/</guid>
       <description>&lt;p&gt;Aujourd’hui, le soleil brille à nouveau et les oiseaux chantent. Le printemps revient après de longs mois où tous les animaux ont grelotté au fond de leurs habitats. Enfin, presque tous les animaux&amp;hellip; Car chez les Grognonouche, on reste au lit et en pyjama de décembre à avril.&lt;br&gt;&#xA;C’est une tradition très importante dans la famille de Flash, l’ourson. En attendant des jours plus doux, on peut les entendre ronfler très fort du soir au matin et du matin au soir dans leur tanière.&lt;/p&gt;</description>
     </item>
   </channel>
