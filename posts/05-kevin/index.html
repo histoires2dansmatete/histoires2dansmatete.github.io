@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="fr-fr"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin a disparu | Les histoires de « Dans ma tête »</title>
+
+    
+  
+    <link href="/img/personal/favicon.png" rel="icon" type="image/x-icon" />
+  
+
+
+<link rel="canonical" href="https://histoires2dansmatete.github.io/posts/05-kevin/" />
+
+
+
+<meta name="author" content="Griotte Lapone" />
+<meta name="description" content="Cela fait plusieurs jours que Pimousse, le campagnol, n’a pas croisé son ami Kevin. C’est étrange car d’habitude, il sort de ses galeries au moins une fois par jour pour papoter avec les autres animaux. Et il creuse tellement que la prairie est toujours remplie de taupinières. Sauf qu’en ce moment, c’est le calme plat : pas un seul tas de terre à l’horizon, pas un petit museau sortant de son trou&hellip;pas de nouvelles de Kevin, la taupe.
+" />
+
+
+<meta name="keywords" content="Harcèlement,Amitié">
+
+
+
+<meta name="generator" content="Hugo 0.145.0">
+
+
+<meta property="og:url" content="https://histoires2dansmatete.github.io/posts/05-kevin/">
+  <meta property="og:site_name" content="Les histoires de « Dans ma tête »">
+  <meta property="og:title" content="Kevin a disparu">
+  <meta property="og:description" content="Cela fait plusieurs jours que Pimousse, le campagnol, n’a pas croisé son ami Kevin. C’est étrange car d’habitude, il sort de ses galeries au moins une fois par jour pour papoter avec les autres animaux. Et il creuse tellement que la prairie est toujours remplie de taupinières. Sauf qu’en ce moment, c’est le calme plat : pas un seul tas de terre à l’horizon, pas un petit museau sortant de son trou…pas de nouvelles de Kevin, la taupe.">
+  <meta property="og:locale" content="fr_fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-04-24T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-04-24T00:00:00+00:00">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Kevin a disparu">
+  <meta name="twitter:description" content="Cela fait plusieurs jours que Pimousse, le campagnol, n’a pas croisé son ami Kevin. C’est étrange car d’habitude, il sort de ses galeries au moins une fois par jour pour papoter avec les autres animaux. Et il creuse tellement que la prairie est toujours remplie de taupinières. Sauf qu’en ce moment, c’est le calme plat : pas un seul tas de terre à l’horizon, pas un petit museau sortant de son trou…pas de nouvelles de Kevin, la taupe.">
+
+
+
+
+  
+
+<link rel="stylesheet" href="/css/output.min.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+    <link rel="stylesheet" href="/css/custom.css" />
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js" integrity="sha256-PtHu0lJIiSHfZeNj1nFd6wTX+Squ255SGZ/fc8seCtM=" crossorigin="anonymous"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav class="mt-4 lg:mt-8 py-4">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:avatar-online">
+        <div class="h-10 rounded-full">
+          <img src="/img/personal/avatar.png" alt="Les histoires de « Dans ma tête »" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="https://histoires2dansmatete.github.io/" class="text-lg font-semibold cursor-pointer site-title">
+          Les histoires de « Dans ma tête »
+        </a>
+        
+      </div>
+      
+    </section>
+
+    
+    
+      
+    
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-1 shadow-md">
+        
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="group inline-flex items-center p-2 cursor-pointer" href="/search" title="Rechercher une histoire">
+    <ion-icon name="search"></ion-icon>
+    Rechercher une histoire
+  </a>
+</li>
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="https://www.instagram.com/les_histoires_2_dans_ma_tete/" target="_blank" title="Instagram">
+    
+    <ion-icon name="logo-instagram"></ion-icon>
+    
+    Instagram
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="L&#39;Archive à histoires">
+    <ion-icon name="archive"></ion-icon>
+    L&#39;Archive à histoires
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="Toutes les catégories">
+    <ion-icon name="grid"></ion-icon>
+    Toutes les catégories
+  </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+
+      
+      
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/search" title="Rechercher une histoire">
+  <ion-icon class="group-hover:text-primary-content" name="search"></ion-icon>
+</a>
+
+
+      
+      
+
+
+
+  
+  <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="https://www.instagram.com/les_histoires_2_dans_ma_tete/" target="_blank" title="Instagram">
+    <ion-icon class="group-hover:text-primary-content" name="logo-instagram"></ion-icon>
+  </a>
+  
+
+
+
+      
+
+      <div class="dropdown dropdown-end dropdown-hover">
+        <div tabindex="0" role="button" class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" aria-label="Select an option">
+          <ion-icon class="group-hover:text-primary-content text-xl" name="menu"></ion-icon>
+        </div>
+        <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-1 shadow-xl">
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="L&#39;Archive à histoires">
+    <ion-icon name="archive"></ion-icon>
+    L&#39;Archive à histoires
+  </a>
+</li>
+
+
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="Toutes les catégories">
+    <ion-icon name="grid"></ion-icon>
+    Toutes les catégories
+  </a>
+</li>
+
+
+          
+          
+
+
+
+
+
+          
+          
+
+
+
+
+
+          
+
+          
+          
+
+
+
+
+
+
+
+
+
+
+          
+        </ul>
+      </div>
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    
+  </div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="Kevin a disparu">
+  <meta itemprop="description" content="Cela fait plusieurs jours que Pimousse, le campagnol, n’a pas croisé son ami Kevin. C’est étrange car d’habitude, il sort de ses galeries au moins une fois par jour pour papoter avec les autres animaux. Et il creuse tellement que la prairie est toujours remplie de taupinières. Sauf qu’en ce moment, c’est le calme plat : pas un seul tas de terre à l’horizon, pas un petit museau sortant de son trou…pas de nouvelles de Kevin, la taupe.">
+  <meta itemprop="datePublished" content="2025-04-24T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-04-24T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1455">
+  <meta itemprop="keywords" content="Harcèlement,Amitié">
+
+      <header>
+        <h1 itemprop="headline">Kevin a disparu</h1>
+        <p class="text-sm">
+          
+            <span data-format="luxon">2025-04-24T00:00:00Z</span>
+          
+
+          | <span>7 minutes de lecture</span>
+
+          
+          | <span>Mise à jour le
+            
+              <span data-format="luxon">2025-04-24T00:00:00Z</span>
+            </span>
+          
+        </p>
+
+        
+        <div class="flex justify-between">
+          
+            <div class="flex items-center">
+  
+  <div class="avatar mr-1">
+    <div class="w-8 rounded-full">
+      <img class="my-0!" src="/img/personal/avatar.png" alt="Griotte Lapone" />
+    </div>
+  </div>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">Griotte Lapone</span>
+    
+  
+  </span>
+</div>
+
+          
+
+          <div class="flex items-center gap-2">
+
+</div>
+
+        </div>
+      </header>
+
+      <section id="dream-single-post-content" itemprop="articleBody">
+        
+
+        <p>Cela fait plusieurs jours que Pimousse, le campagnol, n’a pas croisé son ami Kevin. C’est étrange car d’habitude, il sort de ses galeries au moins une fois par jour pour papoter avec les autres animaux. Et il creuse tellement que la prairie est toujours remplie de taupinières. Sauf qu’en ce moment, c’est le calme plat : pas un seul tas de terre à l’horizon, pas un petit museau sortant de son trou&hellip;pas de nouvelles de Kevin, la taupe.</p>
+<p>« Peut-être est-il parti en vacances ? » pense Pimousse. Le campagnol a parfois la tête dans les nuages et n’écoute pas toujours lorsqu’on lui parle. « Ou alors il a déménagé ? Oh, flûte alors ! Voilà ce que c’est que de ne pas toujours être attentif ! ». Un peu contrarié, Pimousse décide d’interroger la cousine de Kevin, Mimi la fouine. Mimi adore écouter aux portes des terriers, des tanières ou des grottes. Elle sait absolument tout ce qui se passe chez ses voisins.</p>
+<ul>
+<li><em>Bonjour Mimi</em>, dit Pimousse. <em>Comment vas-tu ? Tu as quelques histoires intéressantes de ce qui se passe dans les sous-bois en ce moment ?</em></li>
+<li><em>Bonjour Pimousse. Te voilà bien curieux ! Dis-moi plutôt ce que tu cherches à savoir</em>, répond la fouine.</li>
+<li><em>Tu sais où est Kevin ? Il a dû me le dire, mais je ne m’en souviens plus.</em></li>
+<li><em>Tiens, c’est vrai ça ! Mais où est mon cousin ?</em> reprend Mimi.</li>
+</ul>
+<p>Alors comme ça, Kevin a vraiment disparu. Même la plus curieuse d’entre tous ne sait pas où il est. Mais comment faire pour le retrouver ?</p>
+<p>Inquiets, Pimousse et Mimi décident de partir à sa recherche. Mais par où commencer ?</p>
+<ul>
+<li><em>Et si on collait des affiches avec sa photo sur les arbres ?</em> suggère le campagnol.</li>
+<li><em>Mais voyons, ce n’est pas un chat perdu !</em> répond la fouine. <em>Non, réfléchissons&hellip; Peut-être qu’on trouverait des indices si nous allions dans ses galeries.</em></li>
+<li><em>On devrait peut-être aller voir l’inspecteur Paprika ?</em> suggère Pimousse.</li>
+<li><em>Le renard qui se prend pour un chien policier ?! Sûrement pas. En plus, on m’a raconté qu’il adore manger des campagnols à la mayonnaise</em>, réplique Mimi.</li>
+<li><em>Beurk, mais quelle horreur !</em> s’indigne Pimousse. <em>Allons chez Kevin alors.</em></li>
+</ul>
+<p>Voici nos compères à l’entrée des galeries de la taupe. Le campagnol, pas très courageux, hésite à entrer.</p>
+<ul>
+<li><em>Tu attends quoi ? Tu as peur ?</em> lui demande la fouine.</li>
+<li><em>Non, ce n’est pas ça</em>, ment Pimousse. <em>Mais ça ne se fait pas d’entrer sans y être invité.</em></li>
+<li><em>Parce que Monsieur veut un carton d’invitation en plus !</em> se moque Mimi. <em>Vas-y et arrête de faire le bébé, espèce de froussard !</em></li>
+</ul>
+<p>Le campagnol vexé entre dans la galerie. Mimi le suit et glisse car le tunnel est en pente. Elle tamponne Pimousse et les voilà qui se retrouve à faire du toboggan. Mimi rigole pendant que Pimousse hurle ! Ils arrivent brusquement dans le nid de Kevin et atterrissent sur leurs popotins.</p>
+<ul>
+<li><em>Aïe</em>, fait le campagnol.</li>
+<li><em>Décidément, tu n’es vraiment pas rigolo</em>, dit la fouine.</li>
+</ul>
+<p>Soudain, ils entendent une voix qui vient d’un grand fauteuil tourné vers un petit poêle.</p>
+<ul>
+<li><em>Qui est là ?</em> demande la voix pas très rassurée.</li>
+<li><em>Pimousse et Mimi</em>, répondent nos complices en chœur.</li>
+</ul>
+<p>Pimousse court vers le fauteuil et s’exclame :</p>
+<ul>
+<li><em>Kevin, tu es là ! Ce que je suis content de te voir !</em></li>
+<li><em>J’aimerais en dire autant mais je bigle et mes lunettes sont cassées donc difficile de t’apercevoir. Par contre, je reconnais bien ta voix.</em></li>
+<li><em>Pourquoi tu restes enfermé ici ? Tu boudes ?</em> questionne sa cousine.</li>
+<li><em>Justement, je ne vois pas grand-chose mais j’entends tout et c’est bien ça mon problème</em>, répond la taupe.</li>
+<li><em>Ce n’est pas nouveau ça !</em> lui signale Mimi. <em>Pourquoi tu ne viens pas un peu à la surface pour papoter avec les copains ?</em></li>
+<li><em>Bah oui, c’est super de pouvoir entendre et écouter les autres</em>, reprend Pimousse. <em>Moi, par exemple, j’entends mais je n’écoute rien. La preuve : je ne me souviens plus pourquoi tu as décidé de rester chez toi. Tu as dû m’en parler mais comme j’ai toujours la tête dans les nuages&hellip;</em></li>
+<li><em>Non, je ne t’ai rien dit. Et d’ailleurs, je ne veux pas en parler. Je veux rester seul</em>, répond Kevin.</li>
+</ul>
+<p>Mimi fait un clin d’œil à Pimousse et dit :</p>
+<ul>
+<li><em>Tu peux raconter ce qui t’arrive à Pimousse, puisque de toute façon il ne t’écoutera pas. Quant à moi, je suis une fouine donc je vais faire ma curieuse.</em></li>
+</ul>
+<p>Mimi est décidemment très maline. Son cousin se met alors à raconter :</p>
+<ul>
+<li><em>Vous connaissez Gruyère et sa bande ?</em></li>
+<li><em>Le gang des rats d’égouts qui vient rôder quelque fois dans la prairie ?</em> demande la fouine.</li>
+<li><em>Oui, eux ! Depuis plusieurs semaines, Gruyère et ses copains se moquent de moi.</em></li>
+<li><em>Comment ça ?</em> interroge Pimousse.</li>
+<li><em>La première fois, je les ai entendus de loin. Ils disaient que j’avais une tête bizarre avec mes grosses lunettes. Comme je ne vois pas grand-chose et je me suis dit qu’ils avaient peut-être raison après tout. La deuxième fois</em>, continue Kevin, <em>ils se sont approchés de moi en me traitant de patate bigleuse. J’ai essayé de me défendre, mais plus je leur répondais, plus ils rigolaient. La troisième fois, ils ont attendu à la sortie d’une de mes galeries, ils m’ont attrapé et m’ont fait virevolter en criant : « qui veut jouer au binoclard volant ? ». C&rsquo;est comme ça que mes lunettes se sont cassées.</em></li>
+<li><em>Je vais les chasser à coup de pieds dans le popotin s’ils reviennent</em>, s’énerve le campagnol.</li>
+<li><em>Tout doux, Pimousse !</em> s’exclame Mimi. <em>Kevin, tu n’as rien fait de mal et tu n’as pas à te cacher. Personne ne mérite d’être ridiculisé. C’est Gruyère et ses copains qui ont mal agi</em>, reprend la fouine. <em>C’est injuste et nous allons lui montrer que dans notre prairie, nous sommes aussi une bande !</em></li>
+</ul>
+<p>Mimi convoque donc les belettes Bottine et Bidule ainsi que Brossabarbe, le blaireau. Tous ensemble, ils décident de donner une bonne leçon à Gruyère et ses copains. Justement, le lendemain, la bande de rats arrivent dans la prairie en jouant les malins. Kevin est seul, le museau en dehors de sa taupinière et ses amis sont partis se cacher derrière un arbre.</p>
+<ul>
+<li><em>Vous avez vu, on dirait que la patate bigleuse a encore envie de jouer au binoclard volant</em>, dit Gruyère en rigolant avec sa bande.</li>
+<li><em>C’est ça, moquez-vous. En attendant, que diriez-vous de vous amuser à celui qui entend le mieux ?</em> demande la taupe.</li>
+<li><em>Mais qu’est-ce que tu racontes !</em> répond le rat. <em>C’est un jeu louche que tu as inventé ?</em><br>
+Et tous les rats se remettent à rire.</li>
+</ul>
+<p>A ce moment-là, les amis de Kevin sortent tous de derrière leur arbre. Le calme revient d’un coup.</p>
+<ul>
+<li><em>On a de bonnes oreilles et on a tout entendu. Alors comme ça, mon cousin Kevin vous amuse beaucoup ?</em> demande Mimi.</li>
+<li><em>Avoue que ses grosses lunettes et ses yeux qui biglent sont marrants</em>, reprend Gruyère.</li>
+<li><em>Tout comme ton prénom qui sent le fromage</em>, répond Brossabarbe en fronçant ses gros sourcils.</li>
+<li><em>Oui, c’est vrai que mes parents n’ont pas été très gentils en m’appelant comme ça</em>, dit Gruyère en baissant le regard.</li>
+<li><em>Et toi, le rondoudou derrière Gruyère</em>, interpelle Pimousse. <em>Oui, toi qui te caches. Ce n’est pas trop difficile de courir avec un bidon aussi rond ?</em></li>
+<li><em>Ce n’est pas de ma faute</em>, dit le rat avec des larmes plein les yeux. <em>On a tous le ventre rond comme un ballon dans ma famille. Je n’ai pas choisi.</em></li>
+<li><em>Tout comme nous, les belettes. Nous n’avons pas choisi de ressembler à des saucisses poilues sur pattes.</em></li>
+</ul>
+<p>Kevin se sent soutenu par ses amis. Il se dit qu’il aurait dû leur parler plus tôt des moqueries de la bande à Gruyère. Cela lui aurait évité d’être triste. Il sait désormais qu’il n’est pas seul. Et cela lui donne beaucoup de force.</p>
+<ul>
+<li><em>Alors Gruyère ? Tu veux toujours faire virevolter un binoclard dans les airs ?</em> dit-il. <em>Tu n’as pas plutôt envie qu’on joue simplement avec un ballon ?</em></li>
+<li><em>Excuse-nous Kevin</em>, répond le rat. <em>Vous avez raison : nous avons tous quelque chose qui fait qu’on peut se moquer de nous.</em></li>
+<li><em>Tout à fait</em>, reprend Mimi. <em>Mais nos différences et nos petits trucs en plus sont une force aussi. Heureusement que nous ne sommes pas tous pareil.</em></li>
+<li><em>Bon, qui veut jouer au ballon ?</em> s’impatiente Kevin. <em>Je vous préviens, je ne sais pas bien viser</em>, dit la taupe en faisant un clin d’œil rieur en direction de Gruyère.</li>
+</ul>
+<p>Kevin est fière d&rsquo;avoir des amis comme les siens. Envolées les moqueries, envolé le ballon ! Le calme est enfin revenu sur la prairie à nouveau pleine de taupinières.</p>
+<img src="/img/05-Kevin.jpg" alt="Flash">
+
+        
+      </section>
+
+      
+      <div class="divider"></div>
+      <div class="flex flex-col md:flex-row justify-between gap-4 py-4">
+        
+        <div></div>
+        
+
+        
+        <a role="button" class="btn btn-outline h-12" href="/posts/04-flash/" title="Petit ourson deviendra grand">
+          <div class="inline-flex flex-col items-end">
+            <span class="text-base-content/60 text-xs font-normal">Découvrir une histoire</span>
+            <span class="max-w-48 truncate">Petit ourson deviendra grand</span>
+          </div>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </a>
+        
+      </div>
+      
+
+      
+      <div class="divider"></div>
+
+      <section class="space-y-4">
+        
+
+
+<template x-if="['localhost', '127.0.0.1'].indexOf(window.location.hostname) == -1">
+  <article>
+    <script
+      src="https://utteranc.es/client.js"
+      repo="histoires2dansmatete/histoires2dansmatete.github.io"
+      issue-term="og:title"
+      theme="github-light"
+      crossorigin="anonymous"
+      async>
+    </script>
+  </article>
+</template>
+
+
+
+
+
+
+
+
+      </section>
+      
+    </article>
+  </div>
+
+  <div class="hidden lg:flex lg:flex-col lg:items-end">
+    
+  </div>
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 Les histoires de « Dans ma tête »
+  </p>
+  
+
+  
+  <p>Des histoires mignonnes inventées pour mes fils qui souhaitent les partager à tous les enfants.</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 Les histoires de « Dans ma tête »
+  </p>
+  
+
+  
+  <p>Des histoires mignonnes inventées pour mes fils qui souhaitent les partager à tous les enfants.</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+    
+  
+  <script src="/js/grid.min.js"></script>
+
+
+
+
+  
+
+<script src="/js/main.min.js"></script>
+
+    
+
+
+<script
+  src="https://cdn.jsdelivr.net/npm/luxon@1.26.0"
+  integrity="sha256-4sbTzmCCW9LGrIh5OsN8V5Pfdad1F1MwhLAOyXKnsE0="
+  crossorigin="anonymous"
+></script>
+<script>
+  format()
+
+  function format() {
+    document.querySelectorAll('span[data-format="luxon"]').forEach(el => {
+      const date = el.textContent
+
+      el.textContent = luxon.DateTime.fromISO(date, { locale: "fr" }).toFormat("yyyy-MM-dd")
+    })
+  }
+</script>
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.esm.js" integrity="sha256-/IFmi82bIhdYWctu0UddSlJqpnzWm7Vh2C4CM32wF/k=" crossorigin="anonymous"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.js" integrity="sha256-mr7eJMX3VC3F7G32mk4oWp1C6a2tlMYxUdptfT7uKI8=" crossorigin="anonymous"></script>
+  </body>
+</html>
