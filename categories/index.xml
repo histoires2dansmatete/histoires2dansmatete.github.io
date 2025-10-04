@@ -6,13 +6,41 @@
     <description>Recent content in Categories on Les histoires de « Dans ma tête »</description>
     <generator>Hugo</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Wed, 30 Apr 2025 11:27:09 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://histoires2dansmatete.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Amitié</title>
       <link>https://histoires2dansmatete.github.io/categories/amiti%C3%A9/</link>
-      <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://histoires2dansmatete.github.io/categories/amiti%C3%A9/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aventure</title>
+      <link>https://histoires2dansmatete.github.io/categories/aventure/</link>
+      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://histoires2dansmatete.github.io/categories/aventure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rencontre</title>
+      <link>https://histoires2dansmatete.github.io/categories/rencontre/</link>
+      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://histoires2dansmatete.github.io/categories/rencontre/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amour</title>
+      <link>https://histoires2dansmatete.github.io/categories/amour/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://histoires2dansmatete.github.io/categories/amour/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Différence</title>
+      <link>https://histoires2dansmatete.github.io/categories/diff%C3%A9rence/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://histoires2dansmatete.github.io/categories/diff%C3%A9rence/</guid>
       <description></description>
     </item>
     <item>
@@ -27,13 +55,6 @@
       <link>https://histoires2dansmatete.github.io/categories/grandir/</link>
       <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://histoires2dansmatete.github.io/categories/grandir/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Aventure</title>
-      <link>https://histoires2dansmatete.github.io/categories/aventure/</link>
-      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://histoires2dansmatete.github.io/categories/aventure/</guid>
       <description></description>
     </item>
     <item>
@@ -62,13 +83,6 @@
       <link>https://histoires2dansmatete.github.io/categories/confiance/</link>
       <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://histoires2dansmatete.github.io/categories/confiance/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Différence</title>
-      <link>https://histoires2dansmatete.github.io/categories/diff%C3%A9rence/</link>
-      <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://histoires2dansmatete.github.io/categories/diff%C3%A9rence/</guid>
       <description></description>
     </item>
   </channel>

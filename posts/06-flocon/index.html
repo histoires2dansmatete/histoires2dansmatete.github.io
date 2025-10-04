@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="fr-fr"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flocon et Mandarine | Les histoires de « Dans ma tête »</title>
+
+    
+  
+    <link href="/img/personal/favicon.png" rel="icon" type="image/x-icon" />
+  
+
+
+<link rel="canonical" href="https://histoires2dansmatete.github.io/posts/06-flocon/" />
+
+
+
+<meta name="author" content="Griotte Lapone" />
+<meta name="description" content="Aujourd’hui, c’est un grand jour pour Flocon, le seul tigre blanc du zoo. Il a préparé un plan pour s’échapper. Il en a assez d’être enfermé, il rêve de liberté. Il ne veut plus voir le monde à travers des barreaux. Il souhaite découvrir toute la beauté de notre planète sans barrière pour l’en empêcher. Et même s’il a un peu peur, il sait qu’il a pris la bonne décision.
+" />
+
+
+<meta name="keywords" content="Aventure,Différence,Amour">
+
+
+
+<meta name="generator" content="Hugo 0.145.0">
+
+
+<meta property="og:url" content="https://histoires2dansmatete.github.io/posts/06-flocon/">
+  <meta property="og:site_name" content="Les histoires de « Dans ma tête »">
+  <meta property="og:title" content="Flocon et Mandarine">
+  <meta property="og:description" content="Aujourd’hui, c’est un grand jour pour Flocon, le seul tigre blanc du zoo. Il a préparé un plan pour s’échapper. Il en a assez d’être enfermé, il rêve de liberté. Il ne veut plus voir le monde à travers des barreaux. Il souhaite découvrir toute la beauté de notre planète sans barrière pour l’en empêcher. Et même s’il a un peu peur, il sait qu’il a pris la bonne décision.">
+  <meta property="og:locale" content="fr_fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-05-02T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-05-02T21:27:32+02:00">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Flocon et Mandarine">
+  <meta name="twitter:description" content="Aujourd’hui, c’est un grand jour pour Flocon, le seul tigre blanc du zoo. Il a préparé un plan pour s’échapper. Il en a assez d’être enfermé, il rêve de liberté. Il ne veut plus voir le monde à travers des barreaux. Il souhaite découvrir toute la beauté de notre planète sans barrière pour l’en empêcher. Et même s’il a un peu peur, il sait qu’il a pris la bonne décision.">
+
+
+
+
+  
+
+<link rel="stylesheet" href="/css/output.min.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+    
+    <link rel="stylesheet" href="/css/custom.css" />
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js" integrity="sha256-PtHu0lJIiSHfZeNj1nFd6wTX+Squ255SGZ/fc8seCtM=" crossorigin="anonymous"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav class="mt-4 lg:mt-8 py-4">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:avatar-online">
+        <div class="h-10 rounded-full">
+          <img src="/img/personal/avatar.png" alt="Les histoires de « Dans ma tête »" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="https://histoires2dansmatete.github.io/" class="text-lg font-semibold cursor-pointer site-title">
+          Les histoires de « Dans ma tête »
+        </a>
+        
+      </div>
+      
+    </section>
+
+    
+    
+      
+    
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-1 shadow-md">
+        
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="group inline-flex items-center p-2 cursor-pointer" href="/search" title="Rechercher une histoire">
+    <ion-icon name="search"></ion-icon>
+    Rechercher une histoire
+  </a>
+</li>
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="https://www.instagram.com/les_histoires_2_dans_ma_tete/" target="_blank" title="Instagram">
+    
+    <ion-icon name="logo-instagram"></ion-icon>
+    
+    Instagram
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="L&#39;Archive à histoires">
+    <ion-icon name="archive"></ion-icon>
+    L&#39;Archive à histoires
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="Toutes les catégories">
+    <ion-icon name="grid"></ion-icon>
+    Toutes les catégories
+  </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+
+      
+      
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/search" title="Rechercher une histoire">
+  <ion-icon class="group-hover:text-primary-content" name="search"></ion-icon>
+</a>
+
+
+      
+      
+
+
+
+  
+  <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="https://www.instagram.com/les_histoires_2_dans_ma_tete/" target="_blank" title="Instagram">
+    <ion-icon class="group-hover:text-primary-content" name="logo-instagram"></ion-icon>
+  </a>
+  
+
+
+
+      
+
+      <div class="dropdown dropdown-end dropdown-hover">
+        <div tabindex="0" role="button" class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" aria-label="Select an option">
+          <ion-icon class="group-hover:text-primary-content text-xl" name="menu"></ion-icon>
+        </div>
+        <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-1 shadow-xl">
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="L&#39;Archive à histoires">
+    <ion-icon name="archive"></ion-icon>
+    L&#39;Archive à histoires
+  </a>
+</li>
+
+
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="Toutes les catégories">
+    <ion-icon name="grid"></ion-icon>
+    Toutes les catégories
+  </a>
+</li>
+
+
+          
+          
+
+
+
+
+
+          
+          
+
+
+
+
+
+          
+
+          
+          
+
+
+
+
+
+
+
+
+
+
+          
+        </ul>
+      </div>
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="lg:grid lg:grid-cols-4 gap-4 mt-4 px-4">
+  <div class="hidden lg:block">
+    
+  </div>
+
+  <div class="lg:col-span-2">
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="Flocon et Mandarine">
+  <meta itemprop="description" content="Aujourd’hui, c’est un grand jour pour Flocon, le seul tigre blanc du zoo. Il a préparé un plan pour s’échapper. Il en a assez d’être enfermé, il rêve de liberté. Il ne veut plus voir le monde à travers des barreaux. Il souhaite découvrir toute la beauté de notre planète sans barrière pour l’en empêcher. Et même s’il a un peu peur, il sait qu’il a pris la bonne décision.">
+  <meta itemprop="datePublished" content="2025-05-02T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-05-02T21:27:32+02:00">
+  <meta itemprop="wordCount" content="1301">
+  <meta itemprop="keywords" content="Aventure,Différence,Amour">
+
+      <header>
+        <h1 itemprop="headline">Flocon et Mandarine</h1>
+        <p class="text-sm">
+          
+            <span data-format="luxon">2025-05-02T00:00:00Z</span>
+          
+
+          | <span>7 minutes de lecture</span>
+
+          
+          | <span>Mise à jour le
+            
+              <span data-format="luxon">2025-05-02T21:27:32&#43;02:00</span>
+            </span>
+          
+        </p>
+
+        
+        <div class="flex justify-between">
+          
+            <div class="flex items-center">
+  
+  <div class="avatar mr-1">
+    <div class="w-8 rounded-full">
+      <img class="my-0!" src="/img/personal/avatar.png" alt="Griotte Lapone" />
+    </div>
+  </div>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">Griotte Lapone</span>
+    
+  
+  </span>
+</div>
+
+          
+
+          <div class="flex items-center gap-2">
+
+</div>
+
+        </div>
+      </header>
+
+      <section id="dream-single-post-content" itemprop="articleBody">
+        
+
+        <p>Aujourd’hui, c’est un grand jour pour Flocon, le seul tigre blanc du zoo. Il a préparé un plan pour s’échapper. Il en a assez d’être enfermé, il rêve de liberté. Il ne veut plus voir le monde à travers des barreaux. Il souhaite découvrir toute la beauté de notre planète sans barrière pour l’en empêcher. Et même s’il a un peu peur, il sait qu’il a pris la bonne décision.</p>
+<p>Tous les jours, avant l’ouverture du zoo, c’est la même chose : Achille, le gardien, apporte à manger à Flocon et fait le ménage dans son enclos. Ce matin-là, le tigre blanc, allongé près de la porte fait semblant de dormir en ronflant très fort. Achille lui tourne le dos car il est bien occupé à remettre de l’ordre. Après une courte hésitation, Flocon prend ses pattes à son cou et s’enfuit. Il saute par-dessus la clôture du zoo pour être enfin libre ! Il court sans s’arrêter et sans réfléchir. Il est heureux. Bravo Flocon !</p>
+<p>Après plusieurs heures, voici notre tigre au milieu d’une belle et grande forêt. Flocon est impatient de faire la connaissance des habitants de ce lieu magique. Seulement, voilà : les animaux se sont tous cachés. Le bruit s’est vite répandu qu’un étranger avec de grandes dents pointues rôde dans le bois. Il faut dire que Flocon ne passe pas inaperçu avec son beau pelage blanc, ses grands yeux bleu clair et ses grosses moustaches. Il est impressionnant mais il ne ferait pas de mal à une mouche.</p>
+<p>Il se sent bien seul au milieu de cette grande forêt. Il murmure avec douceur : « il y a quelqu’un ? ». Mais bien évidemment, personne n’ose lui répondre. Ce qu’il ne sait pas, c’est que Mandarine, la renarde l’observe. Courageuse, elle finit par sortir de sa cachette et s’approche de lui en essayant de faire le moins de bruit possible. « Oui, il y a quelqu’un » finit-elle par répondre.<br>
+Flocon sursaute.</p>
+<ul>
+<li><em>Tu m’as fait peur !</em> dit Flocon.</li>
+<li><em>Qui es-tu et que fais-tu là ?</em> interroge Mandarine.</li>
+</ul>
+<p>Le tigre est impressionné par la renarde. C’est vrai qu’elle est très jolie avec sa fourrure rousse, son regard en amande, sa queue blanche et son air sûr d’elle.</p>
+<ul>
+<li><em>Je, je&hellip;euh je&hellip;</em> bégaye Flocon.</li>
+<li><em>Tu quoi ?</em> reprend la renarde. <em>Allons, parle. Je ne vais pas te manger !</em></li>
+<li><em>Je me suis échappé du zoo pour partir à l’aventure. C’est pour ça que je suis ici</em>, dit le tigre.</li>
+</ul>
+<p>Cette fois-ci, c’est au tour de Mandarine d’être impressionnée.</p>
+<ul>
+<li><em>Waouh ! Tu as fait ça tout seul ? C’est incroyable !</em> reprend la renarde. <em>Mais tu n’as pas eu peur ? Et tu vas visiter quoi ? Tu sais déjà combien de temps tu vas voyager ? Et tu&hellip;</em></li>
+<li><em>Doucement</em>, l’interrompt Flocon en riant. <em>Je te trouve bavarde et très curieuse.</em></li>
+<li><em>Pardon</em>, répond Mandarine. <em>Mais c’est tellement génial ce que tu as fait que j’ai envie de tout savoir.</em></li>
+</ul>
+<p>Flocon et Mandarine se mettent alors à marcher ensemble dans la forêt tout en discutant. Le tigre lui parle de sa vie au zoo, de ses rêves, de ses envies et de sa liberté retrouvée. Il pose aussi beaucoup de questions à sa nouvelle amie sur sa vie dans la forêt. Mandarine trouve ça très agréable de passer du temps avec lui. Elle est heureuse. Mais elle sent quelque chose de bizarre en elle. Quelque chose qu’elle n’avait jamais ressenti auparavant. « On dirait que j’ai des papillons dans le ventre et j’ai envie de sourire tout le temps, se dit-elle. Mais que m’arrive-t-il ? ».<br>
+De son côté, Flocon regarde Mandarine avec beaucoup d’admiration et la trouve passionnante. Il aime qu’elle lui raconte la vie dans les bois. Il est heureux. Mais il sent quelque chose de bizarre en lui. Quelque chose qu’il n’avait jamais ressenti auparavant. « On dirait que j’ai des papillons dans le ventre et j’ai envie de sourire tout le temps, se dit-il. Mais que m’arrive-t-il ? ».<br>
+Leurs regards se croisent et&hellip;oh, mais oui, c’est bien ça : ils sont en train de tomber amoureux ! C’est à ce moment-là que tous les animaux décident de sortir de leurs cachettes. Cet étranger aux longues dents pointues a finalement l’air plutôt sympathique. Les oiseaux se remettent à chanter, les lapins à sauter partout, les biches gambadent et les écureuils grimpent aux arbres.</p>
+<p>Flocon est émerveillé par cette forêt et ses habitants. Mais il l’est encore plus par Mandarine. Il finit par lui dire :</p>
+<ul>
+<li><em>Mandarine, je me sens bien ici. Est-ce que je peux rester quelques jours avec toi ?</em></li>
+</ul>
+<p>La renarde se sent rougir et répond :</p>
+<ul>
+<li><em>Tu peux rester tout le temps que tu veux. Et même toute la vie si tu en as envie.</em></li>
+</ul>
+<p>Tendrement, Mandarine pose la tête dans le creux du cou de Flocon. Ils restent comme ça un long moment. Ils se sentent bien.</p>
+<p>Tout à coup, ils entendent un bruit derrière eux. Ils se retournent et se retrouvent nez à nez avec Ferdinand, le grand cerf.</p>
+<ul>
+<li><em>Vous êtes bizarres</em>, dit Ferdinand.</li>
+<li><em>Et pourquoi ça ?</em> répond Mandarine.</li>
+<li><em>On dirait que vous êtes amoureux</em>, reprend le cerf.</li>
+<li><em>Je crois bien que ça ne te regarde pas Ferdinand</em>, s’agace la renarde.</li>
+<li><em>Un tigre et une renarde ne peuvent pas être amoureux, c’est n’importe quoi !</em> s’amuse le cerf.</li>
+</ul>
+<p>Flocon n’aime pas du tout qu’on se moque de Mandarine. Il n’aime pas non plus qu’on se moque de ce qu’ils ressentent l’un pour l’autre. Il fronce les sourcils et dit :</p>
+<ul>
+<li><em>Explique-moi pourquoi c’est n’importe quoi ?</em></li>
+</ul>
+<p>Ferdinand n’est pas très rassuré face au tigre. Il baisse la tête et tout en jouant avec une pomme de pin, il finit par répondre timidement :</p>
+<ul>
+<li><em>Bah euh&hellip;c’est-à-dire que euh&hellip;vous êtes trop différents !</em></li>
+<li><em>Et ?</em> demande Flocon</li>
+<li><em>Et&hellip;c’est déjà pas mal, non ?</em> ajoute Ferdinand.</li>
+<li><em>Oh, mais laisse-nous tranquilles. Si on est heureux comme ça, je ne vois pas ce que ça peut te faire</em>, se défend Mandarine.</li>
+</ul>
+<p>Aussitôt, d’autres animaux arrivent et se mettent à donner leur avis.</p>
+<ul>
+<li><em>Ça ne peut pas marcher entre vous</em>, dit Patapouf le sanglier. <em>Un animal de la savane n’a rien à faire avec un animal de la forêt ! C’est comme ça !</em></li>
+<li><em>C’est le monde à l’envers</em>, renchérit Kiki la chauve-souris.</li>
+</ul>
+<p>Mandarine ne se laisse pas faire et les interrompt :</p>
+<ul>
+<li><em>Kiki, tu vis à l’envers donc c’est ton monde qui n’est pas dans le bon sens ! Quant à toi, Patapouf, tu es jaloux. Bien sûr que nous ne sommes pas du même monde. Mais c’est une richesse d’être différents : grâce à Flocon, j’apprends la vie au zoo et dans la savane. De mon côté, je lui parle de notre forêt. Et c’est rigolo !</em></li>
+<li><em>Mouai&hellip;</em> finit par dire Ferdinand pas très convaincu.</li>
+<li><em>On se complète</em>, reprend Flocon. <em>Comme l’eau et la grenadine !</em></li>
+</ul>
+<p>Tous les animaux se regardent. Ils ne comprennent pas ce que vient de dire le tigre.</p>
+<ul>
+<li><em>Il est vraiment bizarre celui-là</em>, insiste Kiki.</li>
+<li><em>Laissez tomber</em>, reprend Flocon ! <em>Mon cœur bat plus fort quand Mandarine est là, je me sens heureux lorsque je la vois, j’ai l’impression d’avoir des ailes lorsqu’elle me sourit et tout ce qu’elle me raconte est merveilleux. Pensez ce que vous voulez, c’est ça le bonheur pour moi. Viens Mandarine, allons-nous-en !</em></li>
+<li><em>Pouah, c’est dégoûtant</em>, dit Patapouf le sanglier.</li>
+<li><em>Je dirais même plus, c’est cracra beurk</em>, ajoute Kiki.</li>
+</ul>
+<p>Flocon et Mandarine s’éloignent en silence. Ils entendent les méchancetés des jaloux. Mais ils s’en fichent. A deux, ils se sentent plus forts. C’est alors que Flocon demande :</p>
+<ul>
+<li><em>Mandarine, est-ce que tu as envie de découvrir le monde avec moi ?</em></li>
+<li><em>Oh ça oui alors</em>, répond Mandarine.</li>
+<li><em>Alors, c’est parti&hellip;pour toute la vie</em>, dit Flocon en faisant un bisou sur le museau de Mandarine.</li>
+</ul>
+<img src="/img/06-Flocon.jpg" alt="Flocon">
+
+        
+      </section>
+
+      
+      <div class="divider"></div>
+      <div class="flex flex-col md:flex-row justify-between gap-4 py-4">
+        
+        <a role="button" class="btn btn-outline h-12" href="/posts/07-perlyetpopette/" title="Une histoire inattendue">
+          <ion-icon name="chevron-back"></ion-icon>
+          <div class="inline-flex flex-col items-start">
+            <span class="text-base-content/60 text-xs font-normal">Découvrir une histoire</span>
+            <span class="max-w-48 truncate">Une histoire inattendue</span>
+          </div>
+        </a>
+        
+
+        
+        <a role="button" class="btn btn-outline h-12" href="/posts/05-kevin/" title="Kevin a disparu">
+          <div class="inline-flex flex-col items-end">
+            <span class="text-base-content/60 text-xs font-normal">Découvrir une histoire</span>
+            <span class="max-w-48 truncate">Kevin a disparu</span>
+          </div>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </a>
+        
+      </div>
+      
+
+      
+      <div class="divider"></div>
+
+      <section class="space-y-4">
+        
+
+
+<template x-if="['localhost', '127.0.0.1'].indexOf(window.location.hostname) == -1">
+  <article>
+    <script
+      src="https://utteranc.es/client.js"
+      repo="histoires2dansmatete/histoires2dansmatete.github.io"
+      issue-term="og:title"
+      theme="github-light"
+      crossorigin="anonymous"
+      async>
+    </script>
+  </article>
+</template>
+
+
+
+
+
+
+
+
+      </section>
+      
+    </article>
+  </div>
+
+  <div class="hidden lg:flex lg:flex-col lg:items-end">
+    
+  </div>
+</div>
+
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 Les histoires de « Dans ma tête »
+  </p>
+  
+
+  
+  <p>Des histoires mignonnes inventées pour mes fils qui souhaitent les partager à tous les enfants.</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid dream-grid-about">
+  
+
+  
+
+  
+</div>
+
+            
+
+            
+<footer class="flex justify-between items-center gap-2 px-4 py-12">
+
+  <div>
+  
+  <p>
+    © 2025 Les histoires de « Dans ma tête »
+  </p>
+  
+
+  
+  <p>Des histoires mignonnes inventées pour mes fils qui souhaitent les partager à tous les enfants.</p>
+  
+</div>
+
+  <div
+  x-data="{ icons: [
+    { name: 'sunny', status: 'n' },
+    { name: 'moon', status: 'y' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center gap-2 h-[32px] px-2 bg-base-100 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+</footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+
+  
+  
+    
+  
+  <script src="/js/grid.min.js"></script>
+
+
+
+
+  
+
+<script src="/js/main.min.js"></script>
+
+    
+
+
+<script
+  src="https://cdn.jsdelivr.net/npm/luxon@1.26.0"
+  integrity="sha256-4sbTzmCCW9LGrIh5OsN8V5Pfdad1F1MwhLAOyXKnsE0="
+  crossorigin="anonymous"
+></script>
+<script>
+  format()
+
+  function format() {
+    document.querySelectorAll('span[data-format="luxon"]').forEach(el => {
+      const date = el.textContent
+
+      el.textContent = luxon.DateTime.fromISO(date, { locale: "fr" }).toFormat("yyyy-MM-dd")
+    })
+  }
+</script>
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.esm.js" integrity="sha256-/IFmi82bIhdYWctu0UddSlJqpnzWm7Vh2C4CM32wF/k=" crossorigin="anonymous"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.js" integrity="sha256-mr7eJMX3VC3F7G32mk4oWp1C6a2tlMYxUdptfT7uKI8=" crossorigin="anonymous"></script>
+  </body>
+</html>
