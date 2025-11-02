@@ -6,20 +6,13 @@
     <description>Recent content in Categories on Les histoires de « Dans ma tête »</description>
     <generator>Hugo</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Sun, 26 Oct 2025 18:09:25 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 02 Nov 2025 12:15:06 +0100</lastBuildDate>
     <atom:link href="https://histoires2dansmatete.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Aventure</title>
-      <link>https://histoires2dansmatete.github.io/categories/aventure/</link>
+      <title>Amitié</title>
+      <link>https://histoires2dansmatete.github.io/categories/amiti%C3%A9/</link>
       <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://histoires2dansmatete.github.io/categories/aventure/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Courage</title>
-      <link>https://histoires2dansmatete.github.io/categories/courage/</link>
-      <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://histoires2dansmatete.github.io/categories/courage/</guid>
+      <guid>https://histoires2dansmatete.github.io/categories/amiti%C3%A9/</guid>
       <description></description>
     </item>
     <item>
@@ -30,17 +23,10 @@
       <description></description>
     </item>
     <item>
-      <title>Amitié</title>
-      <link>https://histoires2dansmatete.github.io/categories/amiti%C3%A9/</link>
+      <title>Tolérance</title>
+      <link>https://histoires2dansmatete.github.io/categories/tol%C3%A9rance/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://histoires2dansmatete.github.io/categories/amiti%C3%A9/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rencontre</title>
-      <link>https://histoires2dansmatete.github.io/categories/rencontre/</link>
-      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://histoires2dansmatete.github.io/categories/rencontre/</guid>
+      <guid>https://histoires2dansmatete.github.io/categories/tol%C3%A9rance/</guid>
       <description></description>
     </item>
     <item>
@@ -51,17 +37,17 @@
       <description></description>
     </item>
     <item>
-      <title>Différence</title>
-      <link>https://histoires2dansmatete.github.io/categories/diff%C3%A9rence/</link>
+      <title>Liberté</title>
+      <link>https://histoires2dansmatete.github.io/categories/libert%C3%A9/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://histoires2dansmatete.github.io/categories/diff%C3%A9rence/</guid>
+      <guid>https://histoires2dansmatete.github.io/categories/libert%C3%A9/</guid>
       <description></description>
     </item>
     <item>
-      <title>Harcèlement</title>
-      <link>https://histoires2dansmatete.github.io/categories/harc%C3%A8lement/</link>
-      <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://histoires2dansmatete.github.io/categories/harc%C3%A8lement/</guid>
+      <title>Respect</title>
+      <link>https://histoires2dansmatete.github.io/categories/respect/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://histoires2dansmatete.github.io/categories/respect/</guid>
       <description></description>
     </item>
     <item>
@@ -88,15 +74,8 @@
     <item>
       <title>Ténacité</title>
       <link>https://histoires2dansmatete.github.io/categories/t%C3%A9nacit%C3%A9/</link>
-      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://histoires2dansmatete.github.io/categories/t%C3%A9nacit%C3%A9/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Confiance</title>
-      <link>https://histoires2dansmatete.github.io/categories/confiance/</link>
-      <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://histoires2dansmatete.github.io/categories/confiance/</guid>
       <description></description>
     </item>
   </channel>
