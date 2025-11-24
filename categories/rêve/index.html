@@ -56,7 +56,7 @@
     <link rel="stylesheet" href="/css/custom.css" />
     
 
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js" integrity="sha256-PtHu0lJIiSHfZeNj1nFd6wTX+Squ255SGZ/fc8seCtM=" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js" crossorigin="anonymous"></script>
   </head>
 
   <body x-data="{
@@ -66,7 +66,10 @@
     <div id="dream-global-bg"></div>
 
     
-<nav class="mt-4 lg:mt-8 py-4">
+<nav x-data="{ isSticky: false }"
+  x-init="window.addEventListener('scroll', () => { isSticky = window.scrollY > 30 })"
+  class="sticky top-0 z-30 mt-4 lg:mt-8 py-4"
+  :class="{ 'bg-base-100 shadow-lg dark:border-b dark:border-base-content/30': isSticky }">
 
   
   <div class="container flex justify-between px-4">
@@ -317,6 +320,12 @@
       
       
       
+      <a href="/categories/enfance/" class="badge h-6 no-underline hover:badge-primary">
+        Enfance
+      </a>
+      
+      
+      
       <a href="/categories/grandir/" class="badge h-6 no-underline hover:badge-primary">
         Grandir
       </a>
@@ -325,6 +334,12 @@
       
       <a href="/categories/libert%C3%A9/" class="badge h-6 no-underline hover:badge-primary">
         Liberté
+      </a>
+      
+      
+      
+      <a href="/categories/no%C3%ABl/" class="badge h-6 no-underline hover:badge-primary">
+        Noël
       </a>
       
       
